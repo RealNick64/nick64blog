@@ -1,0 +1,5 @@
+baseURL = 'http://nick64.me/'
+languageCode = 'en-us'
+title = 'Nick64'
+
+theme = "contrast-hugo"
