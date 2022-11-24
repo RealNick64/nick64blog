@@ -1,11 +1,81 @@
-<!DOCTYPE html>
 <html>
-    {{- partial "head.html" . -}}
-    <body>
-        {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
-        </div>
-        {{- partial "footer.html" . -}}
-    </body>
+  <style>
+    body {
+        background: #FFF0A4;
+    }
+
+    header {
+        justify-content: space-between;
+        align-items: center; 
+        display: flex;
+        padding: 10px;
+    }
+
+    .header-button {
+      font-size: 2.4em;
+      font-family: 'BaueriRegular';
+      text-decoration:none;
+      color: #000000;
+    }
+
+    .nav__links {
+        list-style: none;
+    }
+
+    .nav__links li {
+        display: inline-block;
+        padding: 0px 20px;
+    }
+    
+    #profile-picture {
+      border: 0.3em solid #000000;
+    }
+
+    #copyright {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.8em;
+    }
+
+    @font-face {
+      font-family: 'BaueriRegular';
+      src:
+          url('/fonts/BaueriRegular.woff') format('woff'),
+          url('/fonts/BaueriRegular.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+
+  </style>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="http://nick64.me"><img id="profile-picture" src="profile.png"/></a>
+      <ul class="nav__links">
+        <li>
+          <a href="http://nick64.me" class="header-button">Art</a>
+        </li>
+        <li>
+          <a href="http://nick64.me" class="header-button">Diary</a>
+        </li>
+        <li>
+          <a href="http://nick64.me" class="header-button">Contacts</a>
+        </li>
+      </ul>
+    </header>
+    
+    <hr>
+    {{ block "main" . }}
+      
+    {{ end }}
+    <hr>
+    {{ block "footer" . }}
+      <p id="copyright">© 2022 Nick64 oh wait i dont care lol</p>
+    {{ end }}
+  </body>
 </html>

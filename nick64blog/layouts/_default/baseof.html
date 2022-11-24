@@ -5,7 +5,6 @@
     }
 
     header {
-        border-style: solid;
         justify-content: space-between;
         align-items: center; 
         display: flex;
@@ -13,8 +12,10 @@
     }
 
     .header-button {
-      background-color: red;
-      font-size: 20px;
+      font-size: 2.4em;
+      font-family: 'BaueriRegular';
+      text-decoration:none;
+      color: #000000;
     }
 
     .nav__links {
@@ -25,18 +26,26 @@
         display: inline-block;
         padding: 0px 20px;
     }
-
-    #button-image {
-      position: relative;
-      left: 0;
-      top: 0;
+    
+    #profile-picture {
+      border: 0.3em solid #000000;
     }
 
-    #button-text {
-      position: relative;
-      left: 50%;
-      top: 50%;
+    #copyright {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.8em;
     }
+
+    @font-face {
+      font-family: 'BaueriRegular';
+      src:
+          url('/fonts/BaueriRegular.woff') format('woff'),
+          url('/fonts/BaueriRegular.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+
   </style>
 
   <head>
@@ -46,20 +55,16 @@
 
   <body>
     <header>
-      <img src="profile.png" />
+      <a href="http://nick64.me"><img id="profile-picture" src="profile.png"/></a>
       <ul class="nav__links">
         <li>
-          <span class="header-button">Art</span>
+          <a href="http://nick64.me" class="header-button">Art</a>
         </li>
         <li>
-          <span class="header-button">Diary</span>
+          <a href="http://nick64.me" class="header-button">Diary</a>
         </li>
         <li>
-          <span class="header-button">
-            <img id="button-image" src="button.png">
-            <p id="button-text">Contacts</p>
-          </span>
-          
+          <a href="http://nick64.me" class="header-button">Contacts</a>
         </li>
       </ul>
     </header>
@@ -70,7 +75,7 @@
     {{ end }}
     <hr>
     {{ block "footer" . }}
-      Copyright Nick64 oh wait i dont care lol 2022
+      <p id="copyright">© 2022 Nick64 oh wait i dont care lol</p>
     {{ end }}
   </body>
 </html>
