@@ -1,0 +1,76 @@
+<html>
+  <style>
+    body {
+        background: #FFF0A4;
+    }
+
+    header {
+        border-style: solid;
+        justify-content: space-between;
+        align-items: center; 
+        display: flex;
+        padding: 10px;
+    }
+
+    .header-button {
+      background-color: red;
+      font-size: 20px;
+    }
+
+    .nav__links {
+        list-style: none;
+    }
+
+    .nav__links li {
+        display: inline-block;
+        padding: 0px 20px;
+    }
+
+    #button-image {
+      position: relative;
+      left: 0;
+      top: 0;
+    }
+
+    #button-text {
+      position: relative;
+      left: 50%;
+      top: 50%;
+    }
+  </style>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="profile.png" />
+      <ul class="nav__links">
+        <li>
+          <span class="header-button">Art</span>
+        </li>
+        <li>
+          <span class="header-button">Diary</span>
+        </li>
+        <li>
+          <span class="header-button">
+            <img id="button-image" src="button.png">
+            <p id="button-text">Contacts</p>
+          </span>
+          
+        </li>
+      </ul>
+    </header>
+    
+    <hr>
+    {{ block "main" . }}
+      
+    {{ end }}
+    <hr>
+    {{ block "footer" . }}
+      Copyright Nick64 oh wait i dont care lol 2022
+    {{ end }}
+  </body>
+</html>

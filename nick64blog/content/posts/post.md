@@ -5,10 +5,6 @@ draft: false
 tags: ["piss", "shiz"]
 categories: ["cat1"]
 ---
-
-{{< youtube 2xkNJL4gJ9E>}}
-
 HEY WILL MY STUPID POST FINALLY FUCKING WORK
-
 - piss
 - cum
