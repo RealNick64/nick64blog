@@ -73,12 +73,25 @@
     </header>
     
     <hr>
-    {{ block "main" . }}
-      
-    {{ end }}
+    
+
+<style>
+  .container {
+      padding: 1em 2.5em;
+  }
+</style>
+
+<article>
+  <div class="container">
+    <h1>404: Page not found</h1>
+    <p>Unfortunately, this page does not exist.</p>
+  </div>
+</article>
+
+
     <hr>
-    {{ block "footer" . }}
+    
       <p id="copyright">© 2022 Nick64 oh wait i dont care lol</p>
-    {{ end }}
+    
   </body>
 </html>
