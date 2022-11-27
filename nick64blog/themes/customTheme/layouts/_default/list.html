@@ -10,6 +10,9 @@
 
 {{- range $Pages }}
 
+
+
+
 <article>
   
   <header>
@@ -25,12 +28,30 @@
 {{ else }}
 
 <article>
+  <style>
+    .list-text {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1em;
+    }
+
+    .title {
+      font-size: 1.5em;
+      color: #000000;
+      font-weight: bold;
+    }
+  
+    .post-list {
+      list-style-type: none;
+    }
+  </style>
+
   <!--<header><h1>{{ .Title | default "Posts" | humanize }}</h1></header>-->
-  <ul class="archive">
+  <ul>
     {{- range $Pages }}
-    <li>
-      {{ if .Date }}<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006-01-02" }}</time>{{ end }}
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    <li class="post-list">
+      <a class="title" href="{{ .Permalink }}">{{ .Title }}</a>
+      <p class="list-text">{{ if .Date }}<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006-01-02" }}</time>{{ end }}</p>
+      
     </li>
     {{- end }}
   </ul>
