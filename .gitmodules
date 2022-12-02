@@ -1,0 +1,6 @@
+[submodule "nick64.me"]
+	path = nick64.me
+	url = https://github.com/RealNick64/nick64.me
+[submodule "public"]
+	path = public
+	url = https://github.com/RealNick64/nick64.me

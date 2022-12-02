@@ -3,3 +3,9 @@ languageCode = 'en-us'
 title = 'Nick64'
 
 theme = "customTheme"
+
+copyright = "2022 Nick64 oh wait i dont care"
+
+[author]
+	name = "Nick64"
+	email = "nick@nick64.me"

@@ -4,8 +4,8 @@ layout: "credits"
 ---
 
 **Current profile picture: https://twitter.com/timbougami**     
-**Random GIFs: GifCities**
-**Website made with: Hugo**
+**Random GIFs: GifCities**      
+**Website made with: Hugo**     
 
 I want to thank my friends for being there and supporting me, I'm glad to have them in my life and they mean a lot to me and without them, I imagine things would be different (in a bad way).
 
