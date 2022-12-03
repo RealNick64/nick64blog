@@ -1,0 +1,64 @@
+<html>
+  <style>
+    body {
+        background: #FFB352;
+        background: url(/images/background2.png);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .inside-container {
+        padding: 1em 2.5em;
+    }
+
+    .main-container {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      background: #fff070;
+      padding: 1em 2.5em;
+      border: 0.25em solid black;
+    }
+
+    hr {
+      color: black;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .inside-container {
+          padding: 0.8em 0.2em;
+      }
+
+      .main-container {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background: #fff070;
+        padding: 1em 1.5em;
+        border: 0.3em solid black;
+      }
+    }
+  </style>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+  </head>
+  
+  <div class="main-container">
+    {{ partial "header" . }}
+    <body>
+      <hr>
+        <div class="inside-container">
+          {{ block "main" . }}
+  
+          {{ end }}
+        </div>
+      <hr>
+      {{ block "footer" . }}
+        {{ partial "footer" .}}
+      {{ end }}
+    </body>
+  </div>
+  <br>
+
+</html>

@@ -1,8 +1,8 @@
 ---
 title: "Contacts"
-layout: contacts
+layout: "contacts"
 ---
 
 **Discord**: Nick64#6114            
-**Twitter**: https://twitter.com/Nick64WasTaken         
+**Twitter**: [@Nick64WasTaken](https://twitter.com/Nick64WasTaken)         
 **E-Mail**: nick@nick64.me          
