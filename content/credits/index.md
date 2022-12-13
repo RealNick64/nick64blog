@@ -3,7 +3,8 @@ title: "Credits"
 layout: "credits"
 ---
 
-**Current profile picture: https://twitter.com/timbougami**     
+**Current profile picture: Apparently their Twitter doesn't exist anymore, and I can't find them online so thanks @catgirl140 (account no longer on Twitter)**      
+ 
 **Random GIFs: GifCities**      
 **Website made with: Hugo**     
 
