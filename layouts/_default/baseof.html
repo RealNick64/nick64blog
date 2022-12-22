@@ -1,0 +1,69 @@
+<style>
+    .square {
+        height: 1em;
+        width: 1em;
+        background-color: #c3c3c3;
+        border: 0.2em solid grey;
+        float: right;
+        margin-right: 0.3em;
+    }
+</style>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="/styles.css">
+        <title>Nick64</title>
+    </head>
+    <body>
+        <div class="border-container">
+            <div id="window-container">
+                <div class="header-container">
+                        <span class="window-title">
+                            <img id="profile-picture" src="/images/profile.png"/>
+                            <span class="window-header">{{ block "title" . }} {{ .Page.Title }} {{ end }} - {{ block "title1" . }} {{ .Site.Title }} {{ end }}</span>
+                        </span>
+
+                    <span>
+                        <div class="square"></div>  
+                        <div class="square"></div>  
+                        <div class="square"></div>  
+                    </span>
+                </div>
+                
+                <div style="padding-top: 0.3em;">
+                    <div class="button">
+                    <a href="/" class="button-text">
+                        <u>H</u>ome
+                    </a>
+                    </div>
+                    <div class="button">
+                    <a href="/art" class="button-text">
+                        <u>A</u>rt
+                    </a>
+                    </div>
+                    <div class="button">
+                        <a href="/diary" class="button-text">
+                            <u>D</u>iary
+                        </a>
+                    </div>
+                    <div class="button">
+                        <a href="/random" class="button-text">
+                            <u>R</u>andom
+                        </a>
+                    </div>
+                </div>
+                
+                <div id="window">
+                {{ block "main" . }}
+    
+                {{ end }}
+                <hr>
+                {{ block "footer" . }}
+                    {{ partial "footer" .}}
+                {{ end }}
+                </div>    
+            </div>
+        </div>
+    </body>
+
+</html>

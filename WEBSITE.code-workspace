@@ -4,8 +4,10 @@
 			"path": "."
 		},
 		{
-			"path": "../jekyll"
+			"path": "../revisions-and-testing"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "revisions-and-testing"
+	}
 }
