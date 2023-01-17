@@ -1,10 +1,11 @@
-baseURL = 'http://nick64.me/'
+baseURL = 'https://nick64.me/'
 languageCode = 'en-us'
 title = 'Nick64'
 
 copyright = "2022 Nick64 oh wait i dont care"
 
-theme = "Christmas"
+theme = "YellowAndBlack"
+canonifyURLs = true
 
 [author]
 	name = "Nick64"

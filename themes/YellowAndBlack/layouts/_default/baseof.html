@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/styles.css">
+        <title>Nick64</title>
+
+        {{ partial "head" . }}
+        {{ partial "meta" .}}
+    </head>
+
+    <body>
+        <div id="border-container"> 
+            <div id="window-container">
+                <!-- Here's where the header begins!-->
+                <div id="header-container">
+                    <span id="window-title">
+                        <img id="profile-picture" src="/images/profile.png"/>
+                        <span id="window-header">{{ block "title" . }} {{ .Page.Title }} {{ end }} - {{ block "title1" . }} {{ .Site.Title }} {{ end }}</span>
+                    </span>
+
+                    <span>
+                        <div class="square"></div>  
+                        <div class="square"></div>  
+                        <div class="square"></div>  
+                    </span>
+                </div>
+
+                <div style="padding: 0.25em;" class="below-header-line"></div>
+                <div class="below-header-line"></div>
+
+                <div style="padding-top: 0.3em; padding-bottom: 0.3em;">
+                        <a href="/" class="button">
+                            <u>H</u>ome
+                        </a>
+                    
+                        <a href="/art" class="button">
+                            <u>A</u>rt
+                        </a>
+                    
+                        <a href="/diary" class="button">
+                            <u>D</u>iary
+
+                        <a href="/random" class="button">
+                            <u>R</u>andom
+                        </a>
+                </div>
+                <br>
+                <!-- Here's where the header ends!-->
+                <div class="below-header-line"></div>
+
+                <div id="window">
+                    {{ block "main" . }}
+        
+                    {{ end }}
+                </div> 
+
+                <div class="below-header-line"></div>
+
+                {{ block "footer" . }}
+                        {{ partial "footer" .}}
+                {{ end }}  
+
+            </div>
+        </div>
+    </body>
+
+</html>
