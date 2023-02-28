@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<div class="box-container">
+    {{ partial "thank-you" . }}
+</div>
+
+<br>
+
+<div style="display: flex; justify-content: space-between;">
+    <div style="width: 100%; margin-right:1em;" class="box-container">
+        <h2 style="font-family: 'Neuropol'; font-size: 1em;">RSS</h2>
+        {{ partial "rss-links" . }}
+    </div>
+
+    <div style="width: 100%; margin-right:1em;" class="box-container">
+        <h2 style="font-family: 'Neuropol'; font-size: 1em;">Credits</h2>
+        {{ partial "credits" . }}
+    </div>
+
+    <div style="width: 100%;" class="box-container">
+        <h2 style="font-family: 'Neuropol'; font-size: 1em;">Contacts</h2>
+        {{ partial "contacts" . }}
+    </div>
+</div>
+
+
+<br>
+
+{{ end }}

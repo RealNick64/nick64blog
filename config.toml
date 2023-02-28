@@ -2,10 +2,16 @@ baseURL = 'https://nick64.me/'
 languageCode = 'en-us'
 title = 'Nick64'
 
-copyright = "2022 Nick64 oh wait i dont care"
+copyright = "2023 Nick64 oh wait i dont care"
 
 theme = "YellowAndBlack"
 canonifyURLs = true
+
+[taxonomies]
+	tag = "tags"
+	
+[params]
+    dateFormat = "January 02, 2006"
 
 [author]
 	name = "Nick64"

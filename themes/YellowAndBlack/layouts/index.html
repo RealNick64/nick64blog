@@ -1,0 +1,47 @@
+{{ define "main" }}
+
+<div style="display: flex; justify-content: space-between;">
+    <div style="width: 50%;" class="box-container">
+        <b><h2 style="font-family: 'Neuropol'; font-size: 1em;"><u>Latest Netlogs</u></h2></b>
+
+        <script></script>
+        <div id="latest-posts">
+            {{ range ( where .Site.RegularPages "Type" "netlogs" | first 4 ) }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{end}}
+        </div>
+
+        <b><h2 style="font-family: 'Neuropol'; font-size: 1em;"><u>Latest Art</u></h2></b>
+
+        <script></script>
+        <div id="latest-posts">
+            {{ range ( where .Site.RegularPages "Type" "art" | first 4 ) }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{end}}
+        </div>
+
+    </div>
+
+    <div style="width: 1em;"></div>
+
+    <div style="width: 50%;" class="box-container">
+        {{ partial "random-box" . }}
+    </div>
+</div>
+
+<br>
+
+<div class="box-container">
+    <h2 style="font-family: 'Neuropol'; font-size: 1em;"><u>About Me</u></h2>
+    {{ partial "about-me" . }}
+</div>
+
+<br>
+
+<div class="box-container">
+    <center>
+        {{ partial "stickers" . }}
+    </center>
+</div>
+
+{{ end }}
