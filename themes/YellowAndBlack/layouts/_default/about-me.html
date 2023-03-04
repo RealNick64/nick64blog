@@ -1,47 +1,63 @@
 {{ define "main" }}
 
-<div class="box-container">
-    {{ partial "about-me" . }}
-</div>
+    <div class="box-container">
+        {{ partial "about-me" . }}
+    </div>
 
-<br>
-<br>
+    <br>
+    <br>
 
+    <div class="box-container">
+        <center>
+            <h1 style="font-family: 'Neuropol'; font-size: 2.5vh;"><u>Favorite Movies</u></h1>
+        </center>
 
-<div class="box-container">
-    <center>
-        <h2>Favorite Movies</h2>
-    </center>
-    
-</div>
-<br>
-
-<div class="thumbnail-wrapper">
-    {{ $Pages := where .Site.RegularPages "Type" "reviews" }}
-    {{- range $Pages }}
-    {{ if and (in .Params.tags "favorites") (in .Params.tags "movies") }}
-        <div style="display: flex; justify-content: space-between; margin-bottom: 1em;" class="box-container">
-        
-        <div>
-            {{ $link := .Permalink }}
-            {{ with .Params.thumbnail }}
-                {{ $image := . }}
-                <a href="{{$link}}"><img class="review-thumbnail" src="{{$link}}{{$image}}"></a>
+        <div style="display: flex; justify-content: space-between; margin-left: 1em; margin-right: 1em;">
+            {{ $Pages := where .Site.RegularPages "Type" "reviews" }}
+            {{- range $Pages }}
+                {{ if and (in .Params.tags "favorites") (in .Params.tags "movies") }}
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 1em;">
+                        <div>
+                            {{ $link := .Permalink }}
+                            {{ with .Params.thumbnail }}
+                                {{ $image := . }}
+                                <a href="{{$link}}"><img class="review-thumbnail" src="{{$link}}{{$image}}"></a>
+                            {{ end }}
+                        </div>
+                    </div>
+                {{ end }}
             {{ end }}
-            
         </div>
 
-        <div style="width: 100%; height: 11em; margin-left: 1em;">
-            <a class="review-title">{{ .Title }}</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod semper ex, at posuere lectus sodales vel. Integer non est ac diam pretium varius. Nullam a elit quis turpis tempus porta. Sed vitae ipsum fermentum, gravida nulla a, tincidunt mi. Vestibulum quis est vulputate quam cursus eleifend sed in lectus. Nulla eget magna sed sem pulvinar auctor vel at felis. Pellentesque sollicitudin velit vel odio aliquam placerat. Ut eget neque sed elit rutrum malesuada semper sit amet ante. Proin id malesuada mauris.</p>
-            <a class="read-more" href="{{ .Permalink }}">Read More...</a>
+        <br>
+
+        <center>
+            <h1 style="font-family: 'Neuropol'; font-size: 2.5vh;"><u>Favorite Shows</u></h1>
+        </center>
+
+        <div style="display: flex; justify-content: space-between; margin-left: 1em; margin-right: 1em;">
+            {{ $Pages := where .Site.RegularPages "Type" "reviews" }}
+            {{- range $Pages }}
+                {{ if and (in .Params.tags "favorites") (in .Params.tags "movies") }}
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 1em;">
+                        <div>
+                            {{ $link := .Permalink }}
+                            {{ with .Params.thumbnail }}
+                                {{ $image := . }}
+                                <a href="{{$link}}"><img class="review-thumbnail" src="{{$link}}{{$image}}"></a>
+                            {{ end }}
+                        </div>
+                    </div>
+                {{ end }}
+            {{ end }}
         </div>
-        {{ end }}
-        </div>
-    {{- end }}
-</div>
+    </div>
+
+    <br>
 
 
-<br>
+   
 
 {{ end }}
+
+
