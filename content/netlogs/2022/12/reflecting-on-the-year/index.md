@@ -2,7 +2,7 @@
 title: "Reflecting on the Year"
 date: 2022-12-31T15:49:49-07:00
 draft: false
-tags: ["rants", "random"]
+tags: ["rant", "random"]
 categories: ["posts"]
 ---
 

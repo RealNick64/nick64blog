@@ -1,4 +1,4 @@
 ---
-title: "Movies"
+title: "Informative"
 layout: reviews
 ---

@@ -1,0 +1,4 @@
+---
+title: "Tech"
+layout: netlogs
+---

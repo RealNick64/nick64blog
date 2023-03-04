@@ -1,0 +1,4 @@
+---
+title: "Rant"
+layout: netlogs
+---

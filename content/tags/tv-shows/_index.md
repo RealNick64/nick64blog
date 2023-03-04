@@ -1,4 +1,4 @@
 ---
-title: "Movies"
+title: "TV Shows"
 layout: reviews
 ---

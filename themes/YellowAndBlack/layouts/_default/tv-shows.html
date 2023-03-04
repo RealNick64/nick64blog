@@ -8,6 +8,14 @@
 
 {{ if .Site.Params.excerpts }}
 
+
+<div style="display: flex; justify-content: center;">
+  <a class="tag-button" href="{{ .Site.Params.baseURL }}\tags\news">All</a>
+  <a class="tag-button" href="{{ .Site.Params.baseURL }}\tags\random">Movies</a>
+  <a class="tag-button" href="{{ .Site.Params.baseURL }}\tags\rant">TV Shows</a>
+</div>
+<br>
+
 {{- range $Pages }}
 <article>
   <header>
@@ -20,8 +28,6 @@
 {{ else }}
 
   <div class="thumbnail-wrapper">
-      <p style="display: flex; justify-content: center; "class="box-container"><b>Tip</b>: use CTRL+F to find other reviews. If nothing comes up, then there's no review (I'm too lazy to make search for my posts :P)</p>
-      {{ partial "reviews-buttons" . }}
       {{- range $Pages }}
         
         <div style="display: flex; justify-content: space-between; margin-bottom: 1em" class="box-container">
@@ -32,8 +38,6 @@
                 <a href="{{$link}}"><img class="review-thumbnail" src="{{$link}}{{$image}}"></a>
               {{ end }}
           </div>
-
-          
 
           <div style="width: 100%; margin-left: 1em;">
             <a class="review-title">{{ .Title }}</a>

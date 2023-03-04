@@ -2,7 +2,7 @@
 title: "Kindle: Rekindling My Desire to Read"
 date: 2022-12-10T18:18:06-07:00
 draft: false
-tags: ["random", "rants", "tech"]
+tags: ["random", "rant", "tech"]
 categories: ["posts"]
 ---
 

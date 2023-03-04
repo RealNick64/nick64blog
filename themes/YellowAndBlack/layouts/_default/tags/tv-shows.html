@@ -8,6 +8,7 @@
 
 {{ if .Site.Params.excerpts }}
 
+
 {{- range $Pages }}
 <article>
   <header>
@@ -20,11 +21,10 @@
 {{ else }}
 
   <div class="thumbnail-wrapper">
-      <p style="display: flex; justify-content: center; "class="box-container"><b>Tip</b>: use CTRL+F to find other reviews. If nothing comes up, then there's no review (I'm too lazy to make search for my posts :P)</p>
-      {{ partial "reviews-buttons" . }}
       {{- range $Pages }}
         
         <div style="display: flex; justify-content: space-between; margin-bottom: 1em" class="box-container">
+          
           <div>
               {{ $link := .Permalink }}
               {{ with .Params.thumbnail }}
@@ -33,9 +33,7 @@
               {{ end }}
           </div>
 
-          
-
-          <div style="width: 100%; margin-left: 1em;">
+          <div style="width: 100%; height: 11em; margin-left: 1em;">
             <a class="review-title">{{ .Title }}</a>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod semper ex, at posuere lectus sodales vel. Integer non est ac diam pretium varius. Nullam a elit quis turpis tempus porta. Sed vitae ipsum fermentum, gravida nulla a, tincidunt mi. Vestibulum quis est vulputate quam cursus eleifend sed in lectus. Nulla eget magna sed sem pulvinar auctor vel at felis. Pellentesque sollicitudin velit vel odio aliquam placerat. Ut eget neque sed elit rutrum malesuada semper sit amet ante. Proin id malesuada mauris.</p>
             <a class="read-more" href="{{ .Permalink }}">Read More...</a>

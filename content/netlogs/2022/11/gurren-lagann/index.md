@@ -2,7 +2,7 @@
 title: "I got the Gurren Lagann Blu-Ray box set."
 date: 2022-11-28T21:16:18-07:00
 draft: false
-tags: ["random", "anime"]
+tags: ["random"]
 categories: ["misc"]
 ---
 

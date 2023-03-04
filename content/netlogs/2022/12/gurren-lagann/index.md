@@ -2,7 +2,7 @@
 title: "Gurren Lagann"
 date: 2022-12-30T09:45:01-07:00
 draft: false
-tags: ["anime"]
+tags: ["random"]
 categories: ["posts"]
 ---
 
