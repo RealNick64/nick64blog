@@ -33,35 +33,11 @@ body {
   transition-duration: 0.3s;
 }
 
-.review-thumbnail {
+.thumbnail {
   border-radius: 0.5em;
-  max-height: 11em;
-}
-
-.review-title {
-  font-size: 1m;
-  color: var(--main-color);
-  font-weight: bold;
-  font-family: "Neuropol";
-}
-
-.read-more {
-  color: var(--main-color);
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.read-more:hover {
-  color: #a67709;
-  transition-duration: 0.3s;
-}
-
-.info-container {
-  border:0.25em solid black; 
-  border-radius: 0.5em;
-  background-color: black; 
-  color: var(--main-color); 
-  padding: 0.5em; 
+  max-width: 8em;
+  height: 100%;
+  width: auto;
 }
 
 .box-container {
@@ -216,16 +192,13 @@ body {
   .header-button {
     font-size: 2.3em;
   }
-
   #window-header {
     font-size: 2em;
   }
-
   #profile-picture {
     padding-left: 0.6em;
     max-width: 2em;
   }
-
   .square {
     border-radius: 0.8em;
     height: 2em;

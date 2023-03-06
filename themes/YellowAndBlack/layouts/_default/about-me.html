@@ -1,15 +1,40 @@
 {{ define "main" }}
 
     <div class="box-container">
+        <h2 style="font-family: 'Neuropol'; font-size: 1em;"><u>About Me</u></h2>
         {{ partial "about-me" . }}
     </div>
 
     <br>
-    <br>
+    
 
     <div class="box-container">
+        <h2 style="font-family: 'Neuropol'; font-size: 1em; flex-direction: row;"><u>Favorite Movies</u></h2>
+        <br>
+        <div style="display: flex; justify-content: space-between; margin-left: 1em; margin-right: 1em;"> 
+            <img class="thumbnail" src="images/end-of-evangelion.jpg"> 
+            <img class="thumbnail" src="images/porco-rosso.png">
+            <img class="thumbnail" src="images/whiplash.png">
+            <img class="thumbnail" src="images/fantastic-mr-fox.png">
+            <img class="thumbnail" src="images/perfect-blue.png">
+        </div>
+        <br>
+        <h2 style="font-family: 'Neuropol'; font-size: 1em;"><u>Favorite Shows</u></h2>
+        <br>
+        <div style="display: flex; justify-content: space-between; margin-left: 1em; margin-right: 1em;"> 
+            <img class="thumbnail" src="images/fullmetal-alchemist-brotherhood.png"> 
+            <img class="thumbnail" src="images/better-call-saul.png">
+            <img class="thumbnail" src="images/avatar-the-last-airbender.png">
+            <img class="thumbnail" src="images/flcl.png">
+            <img class="thumbnail" src="images/cowboy-bebop.png">
+        </div>
+    </div>
+
+    
+<!--
+    <div class="box-container">
         <center>
-            <h1 style="font-family: 'Neuropol'; font-size: 2.5vh;"><u>Favorite Movies</u></h1>
+            <h1 style="font-family: 'Neuropol'; font-size: 1.5em;"><u>Favorite Movies</u></h1>
         </center>
 
         <div style="display: flex; justify-content: space-between; margin-left: 1em; margin-right: 1em;">
@@ -21,7 +46,7 @@
                             {{ $link := .Permalink }}
                             {{ with .Params.thumbnail }}
                                 {{ $image := . }}
-                                <a href="{{$link}}"><img class="review-thumbnail" src="{{$link}}{{$image}}"></a>
+                                <a href="{{$link}}"><img class="thumbnail" src="{{$link}}{{$image}}"></a>
                             {{ end }}
                         </div>
                     </div>
@@ -32,7 +57,7 @@
         <br>
 
         <center>
-            <h1 style="font-family: 'Neuropol'; font-size: 2.5vh;"><u>Favorite Shows</u></h1>
+            <h1 style="font-family: 'Neuropol'; font-size: 1.5em;"><u>Favorite Shows</u></h1>
         </center>
 
         <div style="display: flex; justify-content: space-between; margin-left: 1em; margin-right: 1em;">
@@ -44,7 +69,7 @@
                             {{ $link := .Permalink }}
                             {{ with .Params.thumbnail }}
                                 {{ $image := . }}
-                                <a href="{{$link}}"><img class="review-thumbnail" src="{{$link}}{{$image}}"></a>
+                                <a href="{{$link}}"><img class="thumbnail" src="{{$link}}{{$image}}"></a>
                             {{ end }}
                         </div>
                     </div>
@@ -55,7 +80,7 @@
 
     <br>
 
-
+-->
    
 
 {{ end }}
