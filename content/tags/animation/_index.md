@@ -1,4 +1,0 @@
----
-title: "Informative"
-layout: netlogs
----

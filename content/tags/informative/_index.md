@@ -1,4 +1,4 @@
 ---
 title: "Informative"
-layout: reviews
+layout: netlogs
 ---

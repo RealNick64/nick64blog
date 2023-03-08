@@ -1,4 +1,0 @@
----
-title: "Movies"
-layout: reviews
----

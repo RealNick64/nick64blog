@@ -5,9 +5,7 @@ draft: false
 categories: ["art"]
 image: "/content/art/sex-album/images/art.png"
 ---
-{{< center-text >}}
-    (Posted on Twitter on October 16th, 2022)   
-{{< /center-text>}}     
-{{< center-image link="images/art.png">}}
+
+{{< image src="images/art.png">}}
 
 

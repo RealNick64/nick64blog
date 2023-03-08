@@ -14,7 +14,6 @@ body {
 }
 
 
-
 /* BELOW IS THE CSS FOR THE PRIMARY ASPECTS*/
 
 .tag-button {
@@ -35,9 +34,8 @@ body {
 
 .thumbnail {
   border-radius: 0.5em;
-  max-width: 8em;
   height: 100%;
-  width: auto;
+  width: 15%;
 }
 
 .box-container {

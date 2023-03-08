@@ -6,29 +6,6 @@ tags: []
 categories: []
 ---
 
-{{< div >}}
-    <br>
-    <center>
-    <span>
-        <img style="max-width:20em;max-height:auto;border:0.25em solid black;" src="images/1.png">
-    </span>
-    </center>
-    <br>
-    <br>
-  
-    <center>
-    <span>
-        <img style="max-width:20em;max-height:auto;border:0.25em solid black;" src="images/2.png">
-    </span>
-    </center>
-    <br>
- 
-    <br>
-    <center>
-    <span>
-        <img style="max-width:20em;max-height:auto;border:0.25em solid black;" src="images/3.png">
-    </span>
-    </center>
-    <br>
-    <br>
-{{< /div >}}
+{{< image src="images/1.png">}}
+{{< image src="images/2.png">}}
+{{< image src="images/3.png">}}

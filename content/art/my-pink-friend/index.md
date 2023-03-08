@@ -8,10 +8,9 @@ categories: ["art"]
 
 Hey guys, today I was out and about and I found this little guy chilling around in my subconscious, so I put my finger wwaaaaaayyyy inside my nose until I could touch my brain and I picked him right out. Meet my new friend guys!
 
-{{< center-image link="images/pink.png" >}}
+{{< image src="images/pink.png">}}
 
 {{< center-text >}}
-    <br>
     <b>My new friend</b>
 {{< /center-text>}}     
 
