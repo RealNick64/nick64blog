@@ -2,8 +2,7 @@
 title: "Why the PlayStation 2 Is Awesome"
 date: 2022-12-12T19:21:28-07:00
 draft: false
-tags: ["gaming"]
-categories: ["posts"]
+tags: ["gaming", "informative"]
 ---
 
 The irony of me changing my profile picture to an Xbox character right before making a post shilling the PS2 is uncanny. Was just thinking about the PS2 because of how much I prefer it over the Xbox.         
