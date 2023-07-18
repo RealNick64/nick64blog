@@ -1,9 +1,6 @@
 <html>
     <head>
         <link rel="stylesheet" href="/css/styles.css">
-        <title>Nick64</title>
-
-        {{ partial "head" . }}
         {{ partial "meta" .}}
     </head>
 
@@ -13,8 +10,9 @@
                 <!-- Here's where the header begins!-->
                 <div id="header-container">
                     <span id="window-title">
-                        <img id="profile-picture" src="/images/gatoPfp.png"/>
+                        <img id="profile-picture" src="/images/profile.png"/>
                         <span id="window-header">{{ block "title" . }} {{ .Page.Title }} {{ end }} - {{ block "title1" . }} {{ .Site.Title }} {{ end }}</span>
+                        <span id="window-header-mobile">{{ .Site.Title }}</span>
                     </span>
 
                     <span>
@@ -24,15 +22,15 @@
                     </span>
                 </div>
 
-                <div style="padding: 0.25em;" class="below-header-line"></div>
-                <div style="margin-bottom: 0.1em; padding: 0.15em;" class="below-header-line"></div>
+                <div class="below-header-line one"></div>
+                <div class="below-header-line two"></div>
                 
-                <div style="overflow:hidden">
+                <div id="header-links">
                     {{ partial "header-links" .}}
                 </div>
                 
                 <!-- Here's where the header ends!-->
-                <div style="padding: 0.1em;" class="below-header-line"></div>
+                <div class="below-header-line three"></div>
 
                 <div id="window">
                     {{ block "main" . }}

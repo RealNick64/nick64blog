@@ -2,7 +2,7 @@
 title: "18"
 date: 2023-03-14T22:03:01-07:00
 draft: false
-tags: ["news"]
+tags: ["life"]
 ---
 
 Happy birthday to me!!!

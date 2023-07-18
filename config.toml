@@ -12,6 +12,10 @@ canonifyURLs = true
 	
 [params]
     dateFormat = "January 02, 2006"
+	description = "A blog written by professional internet browser and self-certified awesome guy Nick64. Check him out!"
+	sitename = "Nick64"
+	ogimage = "images/gatoPfp.png"
+	twitter = "@Nick64WasTaken"
 
 [author]
 	name = "Nick64"

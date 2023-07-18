@@ -3,7 +3,6 @@ title: "One Week In"
 date: 2023-01-07T19:56:06-07:00
 draft: false
 tags: ["random"]
-categories: ["tidbits"]
 ---
 
 Well, it's been a week, what happened in 2023 so far for me? 		

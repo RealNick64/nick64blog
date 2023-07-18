@@ -6,6 +6,6 @@ tags: ["tech", "gaming"]
 categories: ["tidbits"]
 ---
 
-Oh man, oh man, I bought a Sega Genesis for 16 dollars today at Goodwill. Opened it up to get a look-see inside and oh my... old hardware and huge chips are so hot... I really dig the look of the internals. Something about the humongous 68000 CPU and the SEGA chips and the Zilog CPU, MAN! It is so AWESOME AND HOTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT. Old hardware is my fetish.
+Oh man, oh man, I bought a Sega Genesis for 16 dollars today at Goodwill. Opened it up to get a look-see inside and oh my... old hardware and huge chips are so hot... I really dig the look of the internals. Something about the humongous 68000 CPU and the SEGA chips and the Zilog CPU, MAN! It is so AWESOME AND HOTTTTTTTTTTT. Old hardware is my fetish.
 
-{{< center-image link="images/genesis.png">}}  
+{{< image src="images/genesis.png">}}  

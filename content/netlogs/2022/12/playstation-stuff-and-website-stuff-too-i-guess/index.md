@@ -2,7 +2,7 @@
 title: "Playstation Stuff and Website Stuff Too, I Guess"
 date: 2022-12-19T11:27:56-07:00
 draft: false
-tags: ["random", "gaming", "news"]
+tags: ["random", "gaming", "updates"]
 categories: ["tidbits"]
 ---
 

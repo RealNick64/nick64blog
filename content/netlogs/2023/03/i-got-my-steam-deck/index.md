@@ -2,7 +2,7 @@
 title: "I Got My Steam Deck!"
 date: 2023-03-17T11:39:57-07:00
 draft: false
-tags: ["tech", "gaming", "news"]
+tags: ["tech", "gaming"]
 ---
 
 Hello, YouTube, this is Nick64 Tech Reviews, and today, I will be reviewing the Steam Deck! As you can see, I have it right here on my desk, so I will be doing an unboxing of it.

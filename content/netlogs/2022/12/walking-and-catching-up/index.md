@@ -2,8 +2,7 @@
 title: "Walking and Catching Up"
 date: 2022-12-16T11:48:03-07:00
 draft: false
-tags: ["random"]
-categories: ["posts"]
+tags: ["random", "life"]
 ---
 
 {{< image src="images/futaba-waving.gif" >}}

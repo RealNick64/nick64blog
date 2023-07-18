@@ -1,20 +1,25 @@
 {{ define "main" }}
 
-<div class="box-container"> 
+<div class="box-container list-note"> 
   <b><u>Note: Because I say something in the past doesn't mean I think or feel the same way I do now please dont feel offended guys ;)</u></b>
   <br>
   <br>
-  This page is a list of all my netlogs/posts/whatever-you-want-to-call-them. Pretty cool, huh?
+  {{ .Params.description }}
 </div>
 <br>
 
 <div style="display: flex; justify-content: center;">
-  <a class="tag-button" href="{{ .Site.Params.baseURL }}\tags\news">News</a>
-  <a class="tag-button" href="{{ .Site.Params.baseURL }}\tags\random">Random</a>
-  <a class="tag-button" href="{{ .Site.Params.baseURL }}\tags\rant">Rant</a>
-  <a class="tag-button" href="{{ .Site.Params.baseURL }}\tags\informative">Informative</a>
-  <a class="tag-button" href="{{ .Site.Params.baseURL }}\tags\tech">Tech</a>
-  <a class="tag-button" href="{{ .Site.Params.baseURL }}\tags\gaming">Gaming</a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\updates">Site Updates</a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\life">Life</a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\music">Music</a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\movies-tv">Movies/TV</a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\gaming">Gaming</a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\tech">Tech</a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\random">Random</a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\rant">Rant</a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\informative">Informative</a>
+  
+  
 </div>
 <br>
 

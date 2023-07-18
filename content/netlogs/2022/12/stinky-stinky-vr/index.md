@@ -2,8 +2,7 @@
 title: "Stinky, Stinky VR"
 date: 2022-12-30T09:39:04-07:00
 draft: false
-tags: ["Rant", "Gaming", "Tech"]
-categories: ["posts"]
+tags: ["rant", "gaming", "tech"]
 ---
 
 Ok, so I was going to write some big thing about why VR as a platform is bad, but the more I think about it, I think it’s just a matter of preference than anything. So instead of writing the worst criticisms possible about VR, I’ll just explain why I personally don’t like it.		

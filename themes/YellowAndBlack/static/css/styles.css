@@ -3,39 +3,40 @@
   src: url('/fonts/neuropol.woff');
 }
 
+@font-face {
+  font-family: "Prototype";
+  src: url('/fonts/Prototype.ttf');
+}
+
+@font-face {
+  font-family: "ShadowsIntoLight";
+  src: url('/fonts/ShadowsIntoLight-Regular.ttf');
+}
+
+@font-face {
+  font-family: "MS Gothic";
+  src: url('/fonts/msgothic.ttc');
+}
+
+
+
 :root {
-  --main-color: #f5ae08;
+  --main-color: rgb(245, 174, 8);
 }
 
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: #a67709;
+  font-family: 'Prototype', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(166, 119, 9);
+  background-size: 16px;
   background-image: url(/images/background.png);
+  image-rendering: pixelated;
 }
 
 
-/* BELOW IS THE CSS FOR THE PRIMARY ASPECTS*/
+/* -------------------PRIMARY ELEMENTS------------------- */
 
-.tag-button {
-  border:0.25em solid black; 
-  border-radius: 0.5em;
-  background-color: black; 
-  color: var(--main-color); 
-  padding: 0.5em;
-  transition-duration: 0.3s;
-  margin-right: 0.5em;
-  margin-left: 0.5em;
-}
-
-.tag-button:hover {
-  color: #a67709;
-  transition-duration: 0.3s;
-}
-
-.thumbnail {
-  border-radius: 0.5em;
-  height: 100%;
-  width: 15%;
+#header-links {
+  overflow: hidden;
 }
 
 .box-container {
@@ -46,13 +47,13 @@ body {
   padding: 0.5em; 
 }
 
-
 #window-title {
   display: flex;
   align-items: center;
 }
 
 #border-container {
+  image-rendering: auto;
   border-radius: 0.5em;
   max-width: 60em;
   margin-left: auto;
@@ -72,15 +73,26 @@ body {
 }
 
 #window-container {
-  border-radius: 0.5em;
-  border: 0.5em solid var(--main-color);
+  padding: 0.5em;
 }
 
 .below-header-line {
   border-radius: 0.5em;
   background-color: black;
   margin-top: 0.25em;
+}
+
+.below-header-line.one {
+  padding: 0.25em;
+}
+
+.below-header-line.two {
   padding: 0.15em;
+  margin-bottom: 0.1em;
+}
+
+.below-header-line.three {
+  padding: 0.1em;
 }
 
 .header-button {
@@ -112,9 +124,18 @@ body {
 #window-header {
   font-family: "Neuropol";
   font-weight: bold;
-  color: var(--main-color);
+  color: #f5ae08;
   font-size: 0.8em;
   padding-left: 0.5em;
+}
+
+#window-header-mobile {
+  font-family: "Neuropol";
+  font-weight: bold;
+  color: #f5ae08;
+  font-size: 0.8em;
+  padding-left: 0.5em;
+  display: none;
 }
 
 .square {
@@ -140,34 +161,119 @@ body {
   font-weight: bold;
 }
 
-#latest-posts li {
+
+/* -------------------FRONT PAGE ELEMENTS------------------- */
+.box-container.front-page-box {
+  width: 50%;
+}
+
+.box-container.front-page-box.feed {
+  font-size: 1em;
+}
+
+.latest-posts li {
   list-style: none;
   margin-bottom: 0.8em;
 }
 
-#latest-posts a {
+.latest-posts.top {
+  margin-bottom: 0em;
+}
+
+
+.latest-posts a {
   transition-duration: 0.3s;
   color: var(--main-color);
   text-decoration: none; 
   margin: 1em;
 }
 
-#latest-posts a:hover {
+.latest-posts a:hover {
   color: #a67709;
   transition-duration: 0.3s;
   padding-left: 0.4em;
 }
 
-/* BELOW IS THE CSS FOR THE ARTICLE LINKS */
+.box-container.front-page-button {
+  width: 32%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 0.5em;
+}
+
+.box-container.front-page-button div {
+  display: inline-block;
+}
+
+.box-container.front-page-button div img {
+  vertical-align: middle;
+}
+
+.box-container.front-page-button a {
+  font-family: 'Prototype'; 
+  font-size: 1em; 
+  text-decoration: none; 
+  color: var(--main-color);
+  vertical-align: middle;
+}
+
+.button {
+  width: 88px;
+  image-rendering: pixelated;
+}
+
+/* -------------------LIST ELEMENTS------------------- */
+
+.tag-button {
+  border:0.25em solid black; 
+  border-radius: 0.5em;
+  background-color: black; 
+  color: var(--main-color); 
+  padding: 0.5em;
+  transition-duration: 0.3s;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+.box-container.tag-button {
+  transition-duration: 0.3s;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+.box-container.tag-button:hover {
+  color: #a67709;
+  transition-duration: 0.3s;
+}
 
 .list-text {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1em;
 }
 
+.post-list {
+  list-style-type: none;
+  padding-bottom: 1em;
+}
+
+/* -------------------POST ELEMENTS------------------- */
+.box-container.post-container {
+  font-size: 1em;
+}
+
+.post-image {
+  max-width: 30em;
+  height: auto;
+  border-radius: 0.5em;
+  margin-left: auto; 
+  margin-right: auto; 
+  display: block;
+}
+
 .title {
   transition-duration: 0.3s;
-  font-size: 1.4em;
+  font-size: 1.5em;
   color: var(--main-color);
   font-weight: bold;
   text-decoration: none;
@@ -179,28 +285,212 @@ body {
   padding-left: 0.4em;
 }
 
-.post-list {
-  list-style-type: none;
-  padding-bottom: 1em;
+/* -------------------ABOUT ME ELEMENTS------------------- */
+
+.thumbnail {
+  height: 10em;
+  width: auto;
+  z-index: 3;
 }
 
-/* MOBILE */
+.photograph {
+  margin: 4em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 0.5em;
+  width: auto; 
+  height: auto;
+  transform: rotate(-6deg); 
+  color: black; 
+  background-color: rgb(229, 234, 244, 0);
+}
 
-/*@media all and (max-width: 1000px) {
-  .header-button {
-    font-size: 2.3em;
+.about-me {
+  margin: 4em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 0.5em;
+  width: auto; 
+  height: auto;
+  transform: rotate(2deg); 
+  background-image: url(/images/paper.png);
+  font-family: "ShadowsIntoLight";
+}
+
+.about-me p {
+  color: black;
+}
+
+
+/* ####################### MOBILE ####################### */
+@media (max-aspect-ratio: 3/4) {
+  /* -------------------POST ELEMENTS------------------- */
+  .box-container.post-container {
+    font-size: 1.2em;
   }
+
+  .post-image {
+    max-width: 100%
+  }
+
+  /* -------------------LIST ELEMENTS------------------- */
+  .list-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.6em;
+  }
+  
+  .title {
+    transition-duration: 0.3s;
+    font-size: 0.8em;
+    color: var(--main-color);
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .box-container.list-note {
+    font-size: 1.2em;
+  }
+
+  .post-list {
+    font-size: 1.8em;
+  }
+
+  .tag-button {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+
+  /* -------------------FRONT PAGE ELEMENTS------------------- */
+
+  #window div {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+  .box-container .button {
+    width: 176px;
+    margin-bottom: 1em;
+  }
+
+  .box-container.front-page-box {
+    width: 92%;
+    font-size: 1em;
+  }
+
+  .box-container.front-page-box.feed {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+
+  .box-container.front-page-button {
+    width: 92%;
+    margin-bottom: 1em;
+    font-size: 1em;
+  }
+
+  .box-container.front-page-button.button{
+    width: 2em;
+    vertical-align: middle;
+  }
+
+  .box-container.front-page-button textarea{
+    display: none;
+  }
+  
+  .box-container.front-page-button a {
+    font-size: 1.3em; 
+  }
+
+
+  .latest-posts.top {
+    margin-bottom: 3em;
+  }
+
+/* -------------------PRIMARY ELEMENTS------------------- */
+  #window {
+    border-radius: 0.5em;
+    padding: 0em;
+    margin-top: 0.4em;
+    background: var(--main-color);
+  }
+
+  .square {
+    height: 0.6em;
+    width: 0.6em;
+    border-radius: 0.25em;
+  }
+
   #window-header {
+    display: none;
+  }
+  
+  #window-header-mobile {
+    display: inline;
+    font-size: 0.6em;
+  }
+
+  #profile-picture {
+    max-width: 0.8em;
+  }
+
+  .header-button {
+    font-size: 0.5em;
+    float: center;
+    position: static;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    border-radius: 0.5em;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .box-container {
+    border-radius: 1em;
+  }
+
+  body {
+    background-size: 2%;
+    image-rendering: pixelated;
+  }
+
+  #header-links {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5em;
+  }
+
+  #border-container {
+    border-radius: 1em;
+    border: 0.5em solid black;
+    box-shadow: 1em 1em black;
+  }
+
+  #header-container {
+    border-radius: 0.7em;
     font-size: 2em;
   }
-  #profile-picture {
-    padding-left: 0.6em;
-    max-width: 2em;
-  }
-  .square {
+
+  .below-header-line {
     border-radius: 0.8em;
-    height: 2em;
-    width: 2em;
-    margin-right: 0.8em;
+    background-color: black;
+    margin-top: 0.5em;
   }
-}*/
+  
+  .below-header-line.one {
+    padding: 0.4em;
+  }
+  
+  .below-header-line.two {
+    padding: 0.25em;
+    margin-bottom: 0.1em;
+  }
+  
+  .below-header-line.three {
+    padding: 0.25em;
+  }
+}

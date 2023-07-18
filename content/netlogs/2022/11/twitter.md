@@ -2,7 +2,7 @@
 title: "Twitter"
 date: 2022-11-29T15:54:23-07:00
 draft: false
-tags: ["news", "rant"]
+tags: ["updates", "rant"]
 categories: ["news"]
 ---
 

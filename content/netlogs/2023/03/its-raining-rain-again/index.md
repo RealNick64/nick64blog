@@ -2,7 +2,7 @@
 title: "It's Raining Rain Again"
 date: 2023-03-15T20:39:40-07:00
 draft: false
-tags: ["random"]
+tags: ["life"]
 ---
 
 Today the rain is hitting hard, which I love. Earlier I was working and my window was open, letting in the sounds of the rain trickling and hitting the ground, and the occasional boom of thunder. It's sets a really nice mood for working, in my opinion, and I generally love rainy weather as a whole. But I live in Arizona, so that's a shame haha.		

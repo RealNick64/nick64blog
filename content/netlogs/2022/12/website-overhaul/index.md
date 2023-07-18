@@ -2,8 +2,7 @@
 title: "Website Overhaul!!!"
 date: 2022-12-22T00:29:14-07:00
 draft: false
-tags: ["news"]
-categories: ["posts"]
+tags: ["updates"]
 ---
 
 As you can see now, the website has quite a different look to it. I'm not really sure if I'll keep it as the final one, but I'm really digging the look of it. It also took me like a week to make because I'm bad at HTML + CSS :(     

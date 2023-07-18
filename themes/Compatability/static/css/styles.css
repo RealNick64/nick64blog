@@ -1,0 +1,104 @@
+body {
+  background-color: #a67709;
+  background-image: url(/images/background.gif);
+}
+
+table {
+  color: #f5ae08
+}
+
+/* BELOW IS THE CSS FOR THE PRIMARY ASPECTS*/
+
+.orange {
+  background-color: #f5ae08;
+}
+
+.tag-button {
+  font-size: 12px;
+  background-color: black; 
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+#website-body {
+  width: 600px; 
+  background-color: #f5ae08; 
+  padding: 10px; 
+  border: 4px solid black;
+}
+
+.box-container {
+  background-color: black; 
+  padding: 0.5em; 
+}
+
+.button {
+  width: 88px;
+  image-rendering: pixelated;
+  background-color: black;
+  border: black;
+}
+
+.post-container {
+  color: #f5ae08;
+  text-align: left;
+}
+
+.header-button {
+  padding-left: 6px;
+  padding-right: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.header-button:hover {
+  color: #a67709;
+}
+
+#latest-posts {
+  padding-top: 10px;
+}
+
+#latest-posts li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+#latest-posts a {
+  font-size: 15px;
+  color: var(--main-color);
+  text-decoration: none; 
+  margin: 10px;
+}
+
+#latest-posts a:hover {
+  color: #a67709;
+  padding-left: 20px;
+}
+
+/* BELOW IS THE CSS FOR THE ARTICLE LINKS */
+
+.post-date {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 12px;
+  color: #f5ae08;
+}
+
+.title {
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+}
+
+.title:hover {
+  color: #a67709;
+  padding-left: 20px;
+}
+
+.post-list {
+  list-style-type: none;
+  padding-bottom: 1em;
+  text-align: center;
+}

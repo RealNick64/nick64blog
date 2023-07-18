@@ -2,7 +2,7 @@
 title: "One Week Until 18"
 date: 2023-03-07T17:00:54-07:00
 draft: false
-tags: ["random", "news", "tech", "gaming"]
+tags: ["random", "tech", "gaming"]
 ---
 
 First post in a while, and exactly one week from now is my birthday, so that's neat I guess. I would like to be a bit more excited about it, but honestly, I don't really know right now. School has been a big thing that's been bogging me down, with math and English taking up a lot of my mental energy. I've also been trying to work on personal projects too, but don't want to stress myself out too much, so I've stopped, which has been frustrating me a lot recently, but it's for the better, I think. I hope that soon, things will get better for me, because I've been so up and down, like a roller coaster of emotions.        

@@ -2,7 +2,7 @@
 title: "MAKE A HOMELAB NOW!!!"
 date: 2022-12-22T11:35:59-07:00
 draft: false
-tags: ["random"]
+tags: ["random", "tech"]
 categories: ["tidbits"]
 ---
 

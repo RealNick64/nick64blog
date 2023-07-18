@@ -3,7 +3,6 @@ title: "My Widdle Pwecious Home Server"
 date: 2022-12-11T21:46:43-07:00
 draft: false
 tags: ["tech"]
-categories: ["tidbits"]
 ---
 
 Today I undervolted the CPU on my home server, so now I can save a little bit more moneyz on power!     

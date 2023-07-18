@@ -2,8 +2,7 @@
 title: "Genesis"
 date: 2022-11-25T14:48:48-07:00
 draft: false
-tags: ["news", "random"]
-categories: ["news"]
+tags: ["updates", "random"]
 ---
 
 In the beginning, I created this shitty website. Thus the homepage and the template were completed in their subpar looks. By the twenty-seventh day I had finished the work I had been doing; so on the twenty-seventh day I rested forever and ever from all this work. Then I blessed the twenty-seventh day and made it awesome, because on it I rested from all the work of creating I had done by watching anime and YouTube the whole day. 

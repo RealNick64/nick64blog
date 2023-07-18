@@ -2,8 +2,7 @@
 title: "Trying Out Fighting Games"
 date: 2022-12-23T16:05:43-07:00
 draft: false
-tags: ["Random", "Gaming"]
-categories: ["tidbits"]
+tags: ["random", "gaming"]
 ---
 
 When Smash Bros Ultimate preorders went live, I preordered immediately. I wasn't even into Smash Bros, I just really wanted to get into it, so I bought it in the hopes of finally fitting in with my friends who all played Smash Bros. And how did that go?       

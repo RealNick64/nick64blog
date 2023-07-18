@@ -2,8 +2,7 @@
 title: "Should You Make a Website?"
 date: 2022-12-22T14:49:48-07:00
 draft: false
-tags: ["rant", "informative"]
-categories: ["posts"]
+tags: ["rant", "informative", "tech"]
 ---
 
 {{< image src="images/mimas-room.png" >}}

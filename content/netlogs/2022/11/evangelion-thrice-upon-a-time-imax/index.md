@@ -2,7 +2,7 @@
 title: "My Time Watching Evangelion 3.0 + 1.0: Thrice Upon a Time in IMAX."
 date: 2022-11-30T22:42:43-07:00
 draft: false
-tags: ["rant", "random"]
+tags: ["movies-tv"]
 categories: ["misc"]
 ---
 

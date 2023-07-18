@@ -1,20 +1,20 @@
 {{ define "main" }}
 
 <div style="display: flex; justify-content: space-between;">
-    <div style="width: 50%;" class="box-container">
-        <b><h2 style="font-family: 'Neuropol'; font-size: 1em;"><u>Latest Netlogs</u></h2></b>
+    <div class="box-container front-page-box feed">
+        <b><h2 style="font-family: 'Neuropol'; font-size: 1em;">Latest Netlogs</h2></b>
 
         <script></script>
-        <div id="latest-posts">
+        <div class="latest-posts top">
             {{ range ( where .Site.RegularPages "Type" "netlogs" | first 4 ) }}
             <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
             {{end}}
         </div>
 
-        <b><h2 style="font-family: 'Neuropol'; font-size: 1em;"><u>Latest Art</u></h2></b>
+        <b><h2 style="font-family: 'Neuropol'; font-size: 1em;">Latest Art</h2></b>
 
         <script></script>
-        <div id="latest-posts">
+        <div class="latest-posts">
             {{ range ( where .Site.RegularPages "Type" "art" | first 4 ) }}
             <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
             {{end}}
@@ -24,25 +24,27 @@
 
     <div style="width: 1em;"></div>
 
-    <div style="width: 50%;" class="box-container">
+    <div class="box-container front-page-box">
         {{ partial "random-box" . }}
     </div>
 </div>
 <br>
 
 <div style="display: flex; justify-content: space-between;">
-    <div style="width: 32%; display: flex; justify-content: center; align-items: center;" class="box-container">
-        <img style="width:1.5em; margin-right: 0.5em;" src="/images/ko-fi.png">
-        <a href="https://ko-fi.com/nick64" style="font-family: 'Neuropol'; font-size: 0.8em; text-decoration: none; color: var(--main-color);">Click to donate on Ko-fi!</a>    
+    <div class="box-container front-page-button">
+        <div>
+            <img style="width:1.5em; margin-right: 0.5em;" src="/images/ko-fi.png">
+            <a href="https://ko-fi.com/nick64">Click to donate on Ko-fi!</a>    
+        </div>
     </div>
     <div style="width: 1em;"></div>
-    <div style="width: 32%; display: flex; justify-content: center; align-items: center;" class="box-container">
-        <a style="font-family: 'Neuropol'; font-size: 0.8em; text-decoration: none; color: var(--main-color);" href="http://users3.smartgb.com/g/g.php?a=s&i=g36-34452-75">Click to sign my guestbook!</a>
+    <div class="box-container front-page-button">
+        <a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-34452-75">Click to sign my guestbook!</a>
     </div>
     <div style="width: 1em;"></div>
-    <div style="width: 32%; display: flex; align-items: center;" class="box-container">
-        <a href="https://nick64.me"><img src="/images/button.gif"></a>
-        <textarea style="margin-left: 0.5em;" cols="20em">"<a href="https://nick64.me"><img src="/images/button.gif"></a>"</textarea>
+    <div class="box-container front-page-button">
+        <a href="https://nick64.me"><img class="button" src="/images/button.gif"></a>
+        <textarea style="margin-left: 0.5em;"><a href="https://nick64.me"><img src="/images/button.gif"></a>"</textarea>
     </div>
     
 </div>

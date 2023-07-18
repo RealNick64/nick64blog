@@ -1,3 +1,4 @@
 ---
 title: "Writing"
+layout: "writing"
 ---

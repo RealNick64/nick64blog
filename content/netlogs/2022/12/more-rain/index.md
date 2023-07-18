@@ -2,7 +2,7 @@
 title: "More Rain"
 date: 2022-12-03T21:13:02-07:00
 draft: false
-tags: ["random"]
+tags: ["random", "movies-tv"]
 categories: ["posts"]
 ---
 

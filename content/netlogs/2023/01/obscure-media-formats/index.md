@@ -3,7 +3,6 @@ title: "Obscure Media Formats"
 date: 2023-01-23T22:09:31-07:00
 draft: false
 tags: ["tech", "random"]
-categories: ["posts"]
 ---
 
 I love obscure media formats. 

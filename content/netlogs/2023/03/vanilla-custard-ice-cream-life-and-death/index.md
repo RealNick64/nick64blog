@@ -2,7 +2,7 @@
 title: "Vanilla Custard Ice Cream, Life, and Death"
 date: 2023-03-28T20:35:04-07:00
 draft: false
-tags: ["random", "rant"]
+tags: ["life", "rant"]
 ---
 
 {{< image src="images/cream.jpg" >}}

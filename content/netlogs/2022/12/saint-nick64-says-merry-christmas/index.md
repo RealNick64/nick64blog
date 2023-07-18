@@ -3,7 +3,6 @@ title: "Saint Nick64 Says Merry Christmas!"
 date: 2022-12-25T20:20:25-07:00
 draft: false
 tags: ["random"]
-categories: ["tidbits"]
 ---
 
 Well, this is sort of late, but I just wanted to say Merry Christmas to all reading!        

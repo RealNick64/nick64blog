@@ -1,20 +1,49 @@
-<title itemprop="name">{{ .Title }} | {{ .Site.Title }}</title>
-<meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
-<meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}" />
-<meta itemprop="name" content="{{ .Title }} | {{ .Site.Title }}" />
-<meta name="application-name" content="{{ .Title }} | {{ .Site.Title }}" />
-<meta property="og:site_name" content="{{ .Site.Params.sitename }}" />
+{{- if .IsHome -}}
+  <title itemprop="name">{{ .Site.Title }}</title>
+  <meta itemprop="name" content="{{ .Site.Title }}" />
+  <meta property="og:title" content="{{ .Site.Title }}" />
+  <meta name="twitter:title" content="{{ .Site.Title }}" />
+  <meta name="application-name" content="{{ .Site.Title }}" />
 
-<meta name="description" content="{{ .Params.description }}" />
-<meta itemprop="description" content="{{ .Params.description }}" />
-<meta property="og:description" content="{{ .Params.description }}" />
-<meta name="twitter:description" content="{{ .Params.description }}" />
+  <meta name="description" content="{{ .Site.Params.description }}" />
+  <meta itemprop="description" content="{{ .Site.Params.description }}" />
+  <meta property="og:description" content="{{ .Site.Params.description }}" />
+  <meta name="twitter:description" content="{{ .Site.Params.description }}" />
+{{- else -}}
+  <title itemprop="name">{{ .Title }} | {{ .Site.Title }}</title>
+  <meta itemprop="name" content="{{ .Title }} | {{ .Site.Title }}" />
+  <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
+  <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}" />
+  <meta name="application-name" content="{{ .Title }} | {{ .Site.Title }}" />
+
+  <meta name="description" content="{{ .Params.description }}" />
+  <meta itemprop="description" content="{{ .Params.description }}" />
+  <meta property="og:description" content="{{ .Params.description }}" />
+  <meta name="twitter:description" content="{{ .Params.description }}" />
+{{- end }}
+
+{{- if .IsHome -}}
+ <meta name="description" content="{{ site.Params.description }}" />
+{{- else -}}
+ <meta name="description" content="{{ .Params.description }}" />
+{{- end }}
 
 <base href="{{ .Permalink }}">
-<link rel="canonical" href="{{ .Permalink }}" itemprop="url" /> 
+
 <meta name="url" content="{{ .Permalink }}" />
 <meta name="twitter:url" content="{{ .Permalink }}" /> 
 <meta property="og:url" content="{{ .Permalink }}" />
+
+<link rel="canonical" href="{{ .Permalink }}" itemprop="url" /> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:site_name" content="{{ .Site.Params.sitename }}" />
+
+<meta name="robots" content="index,follow" /> 
+<meta name="googlebot" content="index,follow" />
+
+<meta name="twitter:site" content="{{ .Site.Params.twitter }}">
+<meta name="twitter:creator" content="{{ .Site.Params.twitter }}" />
 
 {{ with .Params.image }} 
   <meta itemprop="image" content="{{ . | absURL }}" />
@@ -28,19 +57,12 @@
   <meta name="twitter:image:src" content="{{ .Site.Params.ogimage | absURL }}" /> 
 {{ end }}
 
-<meta property="og:updated_time" content={{ .Lastmod.Format "2006-01-02T15:04:05Z0700" | safeHTML }} />
+<meta property="og:updated_time" content={{ .Lastmod.Format "2006-01-02T15:04:05Z0700" | safeHTML }} /> <!-- WHAT DOES THIS DOOOOO  -->
 
-<link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml" /> 
+<link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml" /> <!-- NEED TO EDIT THIS!!!!! -->
 
 {{ with .OutputFormats.Get "RSS" }}
   <link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
   <link href="{{ .Permalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
 {{ end }}
 
-<meta name="robots" content="index,follow" /> 
-<meta name="googlebot" content="index,follow" />
-
-<meta name="twitter:site" content="{{ .Site.Params.twitter }}">
-<meta name="twitter:creator" content="{{ .Site.Params.twitter }}" />
-<meta property="fb:app_id" content="538089519640705" />
-<meta property="fb:admins" content="100000686899395" />

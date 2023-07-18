@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<div class="box-container"> 
+  My writing stuff, most of it will probably be abandoned if this gets filled up more, lots of garbage...
+</div>
+<br>
+
+<div class="box-container"> 
+    <div style="text-align: center;"><b>NOTE: </b>This page is still a work in progress!</div>
+    <img style="display: block; border-radius: 0.5em; margin: 1em; width: 30em; image-rendering: pixelated; margin-left: auto; margin-right: auto;" src="/images/under-construction.png">
+</div>
+
+<br>
+
+<div style="display: flex; justify-content: center;">
+  <a class="tag-button" href="{{ .Site.Params.baseURL }}\tags\other">Other</a>
+  <a class="tag-button" href="{{ .Site.Params.baseURL }}\tags\abandoned">Abandoned</a>
+</div>
+<br>
+
+{{ partial "list" . }}
+
+{{ end }}
+

@@ -2,8 +2,7 @@
 title: "Catching Up (Also Puss in Boots)"
 date: 2023-01-16T19:05:02-07:00
 draft: false
-tags: ["random"]
-categories: ["posts"]
+tags: ["movies-tv", "life"]
 ---
 
 I haven't written here in a week. I don't really think it's a good or bad thing, I don't want to bloat my site, but at the same time, I also want to write more so I don't know. Anyways.       

@@ -2,7 +2,7 @@
 title: "Music (?)"
 date: 2023-03-11T23:02:09-07:00
 draft: false
-tags: ["random"]
+tags: ["music"]
 ---
 
 So much fun music... but where to put it?

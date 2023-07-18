@@ -2,8 +2,7 @@
 title: "Gurren Lagann"
 date: 2022-12-30T09:45:01-07:00
 draft: false
-tags: ["random"]
-categories: ["posts"]
+tags: ["movies-tv"]
 ---
 
 Wow, okay, it’s about time I finished watching this show.		

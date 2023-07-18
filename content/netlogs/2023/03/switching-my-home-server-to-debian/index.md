@@ -2,7 +2,7 @@
 title: "Switching My Home Server to Debian"
 date: 2023-03-26T13:33:38-07:00
 draft: false
-tags: ["tech", "news"]
+tags: ["tech"]
 ---
 
 {{< image src="images/linux-linux-users.gif">}}
