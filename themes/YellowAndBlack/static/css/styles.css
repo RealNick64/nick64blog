@@ -21,12 +21,12 @@
 
 
 :root {
-  --main-color: rgb(245, 174, 8);
+  --main-color: #f5ae08;
 }
 
 body {
   font-family: 'Prototype', 'Arial Narrow', Arial, sans-serif;
-  background-color: rgb(166, 119, 9);
+  background-color: #a67709;
   background-size: 16px;
   background-image: url(/images/background.png);
   image-rendering: pixelated;
@@ -149,7 +149,7 @@ body {
 
 #window {
   border-radius: 0.5em;
-  padding: 1em;
+  padding: 0.4em;
   margin-top: 0.4em;
   background: var(--main-color);
 }
@@ -286,6 +286,21 @@ body {
 }
 
 /* -------------------ABOUT ME ELEMENTS------------------- */
+
+#bedroom-wrapper {
+  width: 100%;
+  max-width: 1812px;
+  position: relative;
+}
+
+#test-anchor {
+  border: 1px solid red;
+  height: 26%;
+  width: 13%;
+  position: absolute;
+  left: 36%;
+  top: 32.75%;
+}
 
 .thumbnail {
   height: 10em;
