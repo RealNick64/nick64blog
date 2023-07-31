@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Neuropol";
+  src: url('/fonts/neuropol.woff');
+}
+
+@font-face {
+  font-family: "Prototype";
+  src: url('/fonts/Prototype.ttf');
+}
+
+@font-face {
+  font-family: "MS Gothic";
+  src: url('/fonts/msgothic.ttc');
+}
+
+
+body {
+  font-family: 'Prototype', 'Arial Narrow', Arial, sans-serif;
+  background-image: url("/images/sky.PNG");
+  background-size: cover;
+}
+
+.main-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 600px;
+    display: flex;
+}
+
+.content-container {
+    width: 660px;
+}
+
+.sidebar {
+    width: 120px; 
+    height: 580px;
+    position: relative;
+    /* margin-right: 8px; */
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.3s;
+}
+
+.sidebar-link span {
+    margin-left: 5px;
+}
+
+.sidebar-link:hover {
+    transition-duration: 0.3s;
+    filter: invert(1);
+}
+
+.box-container {
+  border:0.25em solid black; 
+  border-radius: 0.5em;
+  background-color: rgba(0, 0, 0, 0.7); 
+  color: white; 
+}

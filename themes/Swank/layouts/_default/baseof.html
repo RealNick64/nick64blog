@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/styles.css">
+        {{ partial "meta" .}}
+    </head>
+    <body>
+        
+
+        <div class="main-container">
+            <table align="center" width="780px" height="580" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                    <td class="sidebar">
+                        <img style="height: 580px" src="/images/sidebar.svg">
+                        <table style="position: absolute; width: 100%; left: 6px; top: 6px; font-size: 18px;" border="0">
+                            <tr>
+                                <td>
+                                    <a href="/" class="sidebar-link">
+                                        <img style="width: 35px; height: auto;" src="/images/home.svg">
+                                        <span>Home</span>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="/netlogs" class="sidebar-link">
+                                        <img style="width: 35px; height: auto;" src="/images/netlogs.svg">
+                                        <span>Netlogs</span>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="/art" class="sidebar-link">
+                                        <img style="width: 35px; height: auto;" src="/images/home.svg">
+                                        <span>Art</span>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="/misc" class="sidebar-link">
+                                        <img style="width: 35px; height: auto;" src="/images/home.svg">
+                                        <span>Misc</span>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td width="658">
+                        {{ block "main" . }}
+            
+                        {{ end }}
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+        
+    </body>
+</html>
