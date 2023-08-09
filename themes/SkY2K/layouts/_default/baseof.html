@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/styles.css">
+        {{ partial "meta" .}}
+    </head>
+    <body>
+        <div class="clouds-container">
+            <table class="sidebar-table">
+                <tr>
+                    <td>
+                        <a href="/" class="sidebar-link">
+                            <div style="display: flex; justify-content: left; align-items: center;">
+                                <img style="width: 17px;" src="/images/icons/home.png">
+                                <div style="margin-left: 8px">Home</div>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/bedroom" class="sidebar-link">
+                            <div style="display: flex; justify-content: left; align-items: center;">
+                                <img style="width: 17px;" src="/images/icons/bedroom.png">
+                                <div style="margin-left: 8px">Bedroom</div>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/netlogs" class="sidebar-link">
+                            <div style="display: flex; justify-content: left; align-items: center;">
+                                <img style="width: 17px;" src="/images/icons/netlogs.png">
+                                <div style="margin-left: 8px">Netlogs</div>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/art" class="sidebar-link">
+                            <div style="display: flex; justify-content: left; align-items: center;">
+                                <img style="width: 17px;" src="/images/icons/art.png">
+                                <div style="margin-left: 8px">Art</div>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/misc" class="sidebar-link">
+                            <div style="display: flex; justify-content: left; align-items: center;">
+                                <img style="width: 17px;" src="/images/icons/misc.png">
+                                <div style="margin-left: 8px">Misc</div>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/info" class="sidebar-link">
+                            <div style="display: flex; justify-content: left; align-items: center;">
+                                <img style="width: 17px;" src="/images/icons/info.png">
+                                <div style="margin-left: 8px">Info</div>
+                            </div>
+                        </a>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td height="100%"></td>
+                </tr>
+            </table>
+            <div class="main-container">
+                    {{ block "main" . }}
+        
+                    {{ end }}
+            </div>
+            
+        </div>
+    </body>
+
+</html>

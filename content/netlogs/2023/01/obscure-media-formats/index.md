@@ -18,9 +18,9 @@ MiniDisc is really cool too. I think it’s because I’ve always been a sucker 
 
 Which leads me to my most favorite obscure media format….
 
-{{< html >}}
+{{< div >}}
 <h1 style="font-size: 3em;">UMD.</h1>
-{{</ html >}}
+{{</ div >}}
 		
 
 Okay, calling it obscure is maybe a bit of an overstatement. The PSP did sell pretty well, so it’s not like UMD was doing horrible. I like UMD for the same reasons I like MiniDisc, being it’s small, it’s a disc, and it’s… somewhat obscure, I guess. But most of all, I like it for what they tried to do with it. UMD wasn’t just a platform for games. Enter UMD Video (and Music, and whatever other things they tried to do as well that I don’t remember right now, but I’m mainly talking about UMD Video).
