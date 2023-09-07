@@ -1,86 +1,62 @@
 {{ define "main" }}
 
-<div class="content-container" style="height: 100%">
-    <div style="display: flex; justify-content: space-between;">
-        <div class="box-container" style="height: 400px;">
-            <b><h2 style="font-family: 'Neuropol'; font-size: 1em;">Latest Netlogs</h2></b>
-    
-            <script></script>
-            <div class="latest-posts">
-                {{ range ( where .Site.RegularPages "Type" "netlogs" | first 4 ) }}
-                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-                {{end}}
-            </div>
-    
-            <b><h2 style="font-family: 'Neuropol'; font-size: 1em;">Latest Art</h2></b>
-    
-            <script></script>
-            <div class="latest-posts">
-                {{ range ( where .Site.RegularPages "Type" "art" | first 4 ) }}
-                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-                {{end}}
-            </div>
-    
+<div class="content-container" style="height: 708px">
+
+    <img src="/images/welcome.png" style="width: 784; height: 456px; border: 0px; border-radius: 10px;">
+
+    <!-- <div class="box-container front-page-box feed">
+        <b><h2 style="font-family: 'Neuropol'; font-size: 1em;">Latest Netlogs</h2></b>
+
+        <script></script>
+        <div class="latest-posts top">
+            {{ range ( where .Site.RegularPages "Type" "netlogs" | first 4 ) }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{end}}
         </div>
-    
-        <div style="width: 1em;"></div>
-    
-        <div class="box-container" style="height: 400px;">
-            <b><h2 style="font-family: 'Neuropol'; font-size: 1em;">Latest Netlogs</h2></b>
-    
-            <script></script>
-            <div class="latest-posts">
-                {{ range ( where .Site.RegularPages "Type" "netlogs" | first 4 ) }}
-                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-                {{end}}
-            </div>
-    
-            <b><h2 style="font-family: 'Neuropol'; font-size: 1em;">Latest Art</h2></b>
-    
-            <script></script>
-            <div class="latest-posts">
-                {{ range ( where .Site.RegularPages "Type" "art" | first 4 ) }}
-                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-                {{end}}
-            </div>
-    
+
+        <b><h2 style="font-family: 'Neuropol'; font-size: 1em;">Latest Art</h2></b>
+
+        <script></script>
+        <div class="latest-posts">
+            {{ range ( where .Site.RegularPages "Type" "art" | first 4 ) }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{end}}
         </div>
-    </div>
-    <br>
-    
-    <div style="display: flex; justify-content: space-between;">
-        <div class="box-container">
-            <div>
-                <img style="width:1.5em; margin-right: 0.5em;" src="/images/ko-fi.png">
-                <a href="https://ko-fi.com/nick64">Click to donate on Ko-fi!</a>    
-            </div>
-        </div>
-        <div style="width: 1em;"></div>
-        <div class="box-container">
-            <a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-34452-75">Click to sign my guestbook!</a>
-        </div>
-        <div style="width: 1em;"></div>
-        <div class="box-container">
-            <a href="https://nick64.me"><img class="button" src="/images/button.gif"></a>
-            <textarea style="margin-left: 0.5em;"><a href="https://nick64.me"><img src="/images/button.gif"></a>"</textarea>
-        </div>
+
+    </div> -->
+    <div class="box-container frontpage-box" style="height: 60px;">
+        <table border=0 width="100%" height="100%">
+            <tr>
+                <td width="50%">
+                    <b><h2 style="font-family: 'Neuropol'; font-size: 16px; color: var(--orange);">Latest Netlog</h2></b>
+
+                    <script></script>
+                    <div class="latest-post">
+                        {{ range ( where .Site.RegularPages "Type" "netlogs" | first 1 ) }}
+                            <li><a href="{{ .Permalink }}">{{ .Title | truncate 45 }}</a></li>
+                        {{end}}
+                    </div>
+                </td>
+                <td>
+                    <b><h2 style="font-family: 'Neuropol'; font-size: 16px; color: var(--orange);">Latest Art</h2></b>
+
+                    <script></script>
+                    <div class="latest-post">
+                        {{ range ( where .Site.RegularPages "Type" "art" | first 1 ) }}
+                            <li><a href="{{ .Permalink }}">{{ .Title | truncate 45 }}</a></li>
+                        {{end}}
+                    </div>
+                </td>
+            </tr>
+        </table>
         
     </div>
-    <br>
     
-    <div class="box-container">
+    <div class="box-container frontpage-box">
         <center>
             {{ partial "stickers" . }}
         </center>
     </div>
 </div>
-
-
-
-<!-- <div class="content-container">
-    <center>
-        <img style="width: 784px; margin-left: auto; margin-right: auto;" src="/images/bedroom.png">
-    </center>
-</div> -->
 
 {{ end }}
