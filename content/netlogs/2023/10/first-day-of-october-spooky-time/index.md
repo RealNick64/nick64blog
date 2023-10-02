@@ -1,10 +1,10 @@
 ---
 title: "First day of October: Spooky time!"
-description: ""
+description: "I talk about my first day of October and how my life is going so far."
 image: ""
 date: 2023-10-01T16:48:21-07:00
 draft: false
-tags: []
+tags: ["life"]
 ---
 
 It's currently the first day of October (as of writing this). I'm trying something new with this post and using text to speech instead of just conventional typing so I hope I don't make any major grammatical errors or anything, I'll try to proofread this when I get the chance (hi past me :D).
