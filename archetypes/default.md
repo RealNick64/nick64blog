@@ -8,3 +8,5 @@ tags: []
 ---
 
 **Insert post stuff here**
+
+**REMEMBER TO WRITE DESCRIPTION, ADD IMAGE AND TAGS**
