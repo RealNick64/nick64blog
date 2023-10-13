@@ -7,10 +7,6 @@ draft: false
 tags: ["life"]
 ---
 
-**Insert post stuff here**
-
-**REMEMBER TO WRITE DESCRIPTION, ADD IMAGE AND TAGS**
-
 Hello, reader. :)
 
 I hope you are doing alright. I'm sort of not, and I wanted to talk about it. It's nothing serious, but it's just a few things that have been bothering me in my life lately, so I wanted to write about them to externalize my feelings about it. I don't like always writing these negative posts about how I feel and whatever because I feel bad for being such a downer so often, but I feel like I need to get this out.
