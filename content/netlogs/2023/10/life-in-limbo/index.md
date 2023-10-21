@@ -4,7 +4,7 @@ description: "I rant about how my life kind of sucks right now."
 image: ""
 date: 2023-10-13T12:06:22-07:00
 draft: false
-tags: ["life"]
+tags: ["life", "rant"]
 ---
 
 Hello, reader. :)
@@ -17,7 +17,7 @@ I think one part of things that are contributing to my mood is that NOTHING is h
 
 # In transit
 
- Then, there's the whole fiasco with the PSVSD, which I've been looking forward to a lot, and as of writing, as approached ***day 29*** in shipping. There's that and my AliExpress parts for my NAS, which will also take a while, so I just have to sit and twiddle my thumbs everyday until the eventual day comes, which feels like FOREVER.
+ Then, there's the whole fiasco with the PSVSD, which I've been looking forward to a lot, and as of writing, has approached ***day 29*** in shipping. There's that and my AliExpress parts for my NAS, which will also take a while, so I just have to sit and twiddle my thumbs everyday until the eventual day comes, which feels like FOREVER.
 
 # Social life
 
