@@ -1,7 +1,7 @@
 ---
 title: "brawlers world merch"
 description: "Got some merch from brawlers world."
-image: "content/netlogs/2023/11/brawlers-world-merch/images/picture.png"
+image: "/content/netlogs/2023/11/brawlers-world-merch/images/picture.png"
 date: 2023-11-07T19:18:57-08:00
 draft: false
 tags: ["random"]
