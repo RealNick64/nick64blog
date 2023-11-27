@@ -1,6 +1,6 @@
 ---
 title: "Blip: my new webcomic!"
-description: ""
+description: "My new webcomic is finally starting! Go read it please :)))))"
 image: ""
 date: 2023-11-25T22:11:42-08:00
 draft: false
