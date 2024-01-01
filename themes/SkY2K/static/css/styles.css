@@ -9,6 +9,16 @@
 }
 
 @font-face {
+  font-family: "Pacifico";
+  src: url("/fonts/Pacifico-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Anime Ace";
+  src: url("/fonts/animeace2_reg.ttf");
+}
+
+@font-face {
   font-family: "MS Gothic";
   src: url("/fonts/msgothic.ttc");
 }
