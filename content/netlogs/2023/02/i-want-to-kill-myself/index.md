@@ -1,7 +1,7 @@
 ---
 title: "I Want To Kill Myself"
 date: 2023-02-25T22:57:10-07:00
-draft: false
+draft: true
 tags: ["rant"]
 ---
 

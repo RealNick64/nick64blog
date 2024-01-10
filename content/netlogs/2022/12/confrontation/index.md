@@ -1,7 +1,7 @@
 ---
 title: "Confrontation"
 date: 2022-12-08T14:52:28-07:00
-draft: false
+draft: true
 tags: ["rant", "life"]
 ---
 
