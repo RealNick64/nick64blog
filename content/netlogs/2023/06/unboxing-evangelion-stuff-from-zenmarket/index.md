@@ -2,7 +2,7 @@
 title: "Unboxing Evangelion Stuff from ZenMarket"
 date: 2023-06-20T10:18:03-07:00
 draft: false
-tags: ["life", "movies-tv", "random"]
+tags: ["random", "movies-tv"]
 ---
 
 Trying something new, making videos instead of typing netlogs... I wonder if I'll stick with this format. We'll see...

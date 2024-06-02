@@ -1,0 +1,66 @@
+{{ $Pages := .Pages }}
+
+{{ if .IsHome }}
+  {{ $Pages = where site.RegularPages "Type" "in" .Site.Params.mainSections }}
+{{ end }}
+
+{{ if .Site.Params.excerpts }}
+
+{{- range $Pages }}
+<article>
+  <header>
+    {{ if .Date }}<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "January 02, 2006" }}</time>{{ end }}
+  </header>
+  {{ .Summary }}
+</article>
+{{- end }}
+
+{{ else }}
+
+
+
+<article>
+  <ul class="post-list">
+      {{- range $Pages }}
+      <li>
+        <a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a>
+        <div class="post-info">
+          <p class="post-date">{{ .Params.date.Format .Site.Params.dateFormat }}</p>
+          <span>
+            {{ range $tag := .Params.tags }}
+              {{ if eq $tag "updates" }}
+                <img src="/images/icons/website.png">
+              {{ end }}
+              {{ if eq $tag "movies-tv" }}
+                <img src="/images/icons/movies.png">
+              {{ end }}
+              {{ if eq $tag "gaming" }}
+                <img src="/images/icons/games.png">
+              {{ end }}
+              {{ if eq $tag "tech" }}
+                <img src="/images/icons/tech.png">
+              {{ end }}
+              {{ if eq $tag "random" }}
+                <img src="/images/icons/random.png">
+              {{ end }}
+              {{ if eq $tag "videos" }}
+                <img src="/images/icons/play.png">
+              {{ end }}
+              {{ if eq $tag "rant" }}
+                <img src="/images/icons/rant.png">
+              {{ end }}
+              {{ if eq $tag "music" }}
+                <img src="/images/icons/music.png">
+              {{ end }}
+            {{ end }}
+          </span>
+        </div>
+        
+      </li>
+      {{- end }}
+  </ul>
+  {{ .Content }}
+  <br>
+  <p>And that's the bottom...</p>
+</article>
+{{ end }}

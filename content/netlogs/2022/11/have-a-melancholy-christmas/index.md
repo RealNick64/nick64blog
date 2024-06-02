@@ -2,7 +2,7 @@
 title: "Have a Melancholy Christmas..."
 date: 2022-11-27T21:18:30-07:00
 draft: false
-tags: ["rant", "life"]
+tags: ["rant", "random"]
 categories: ["misc"]
 ---
 

@@ -2,7 +2,7 @@
 title: "In Other News..."
 date: 2023-03-13T11:18:13-07:00
 draft: false
-tags: ["life"]
+tags: ["random"]
 ---
 
 It's my birthday in less than 24 hours!!! So that's awesome...      

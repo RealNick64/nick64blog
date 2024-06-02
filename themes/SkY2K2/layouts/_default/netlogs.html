@@ -1,0 +1,64 @@
+{{ define "main" }}
+
+<style>
+  #content-container {
+    gap: 0.5em;
+  }
+</style>
+
+<div class="box-container" style="padding: 1em;"> 
+  <div class="hide-on-mobile">
+    <b>Note: Because I say something in the past doesn't mean I think or feel the same way I do now please dont feel offended guys ;)</b>
+    <br>
+    <br>
+  </div>
+  
+  {{ .Params.description }}
+</div>
+
+<div id="tag-button-container">
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\updates">
+      <img src="/images/icons/website.png">
+      <span>Site Updates</span>
+  </a>
+  <!-- <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\life">Life</a> -->
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\music">
+    <img src="/images/icons/music.png">
+    <span>Music</span>
+  </a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\movies-tv">
+    <img src="/images/icons/movies.png">
+    <span>Movies/TV</span>
+  </a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\gaming">
+    <img src="/images/icons/games.png">
+    <span>Gaming</span>
+  </a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\tech">
+    <img src="/images/icons/tech.png">
+    <span>Technology</span>
+  </a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\random">
+    <img src="/images/icons/random.png">
+    <span>Random</span>
+  </a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\rant">
+    <img src="/images/icons/rant.png">
+    <span>Rant</span>
+  </a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\videos">
+    <img src="/images/icons/play.png">
+    <span>Videos</span>
+  </a>
+  <!-- <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\informative">Informative</a> -->
+</div>
+<div class="box-container post-list-container"> 
+  <div style="overflow-y: auto; max-height: 100%">
+    {{ partial "list" . }}
+  </div>
+</div>
+
+
+
+{{ end }}
+

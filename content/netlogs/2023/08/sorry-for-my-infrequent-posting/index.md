@@ -4,7 +4,7 @@ description: "I apologize for not posting often because I'm busy in life right n
 image: ""
 date: 2023-08-15T14:44:57-07:00
 draft: false
-tags: ["life", "updates"]
+tags: ["random", "updates"]
 ---
 
 {{< image src="images/but cheeks.jpg" alt="Funny meme that has a cat with big butt cheeks reading: Can you shur.up man??? Uuggghhh shakes butt">}}

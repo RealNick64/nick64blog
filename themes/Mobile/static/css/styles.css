@@ -1,0 +1,223 @@
+@font-face {
+  font-family: "Neuropol";
+  src: url("/fonts/neuropol.woff");
+}
+
+@font-face {
+  font-family: "Prototype";
+  src: url("/fonts/Prototype.ttf");
+}
+
+@font-face {
+  font-family: "Pacifico";
+  src: url("/fonts/Pacifico-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Anime Ace";
+  src: url("/fonts/animeace2_reg.ttf");
+}
+
+@font-face {
+  font-family: "MS Gothic";
+  src: url("/fonts/msgothic.ttc");
+}
+
+@font-face {
+  font-family: "Fuku Catch";
+  src: url("/fonts/fukucatch.otf");
+}
+
+:root {
+  --orange: #f5ae08;
+  --darker-orange: #a87500;
+  --blue: #73b4f8;
+}
+
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: var(--blue);
+  background-size: 16px;
+  background-image: url(/images/background-8px.png);
+  image-rendering: pixelated;
+}
+
+/* BASE ELEMENTS */
+
+.clouds-container {
+  background-image: url(/images/sky-transparent.png);
+  background-size: cover;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 2em;
+  padding-top: 2em;
+}
+
+.header {
+  position: absolute;
+  top: 1em;
+  right: 1%;
+  left: 1%;
+  width: 98%;
+  font-family: "Prototype", "Trebuchet MS", sans-serif;
+  text-shadow: 2px 2px black;
+  display: flex;
+  flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.main-container {
+  padding: 20px;
+  image-rendering: auto;
+}
+
+.content-container {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.box-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 0px;
+  border-radius: 10px;
+  color: var(--orange);
+  padding: 1em;
+  text-shadow: 2px 2px black;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* POSTS */
+
+.post-image {
+  max-width: 600px;
+  max-height: 648px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* POST LISTS */
+
+.post-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.post-title {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--orange);
+  /* text-shadow: 2px 2px black; */
+  transition-duration: 0.2s;
+}
+
+.post-title:hover {
+  transition-duration: 0.2s;
+  color: var(--darker-orange);
+}
+
+.post-date {
+  font-size: 16px;
+  color: var(--darker-orange);
+}
+
+/* HOME */
+
+.box-container.frontpage-box {
+  margin-top: 20px;
+  max-height: 50%;
+  box-shadow: -2px 20px 20px -11px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+.latest-post {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.latest-post a {
+  color: var(--orange)
+}
+
+/* NETLOGS */
+
+.box-container.tag-button {
+  padding: 12px;
+  margin-right: 8px;
+  display: flex;
+  white-space: nowrap;
+  gap: 5px;
+  overflow: hidden;
+  max-width: 16px;
+  transition: max-width 2s ease-in-out;
+  image-rendering: pixelated;
+  max-height: 17px;
+}
+
+.box-container.tag-button img {
+  width: 17px;
+  height: 17px;
+}
+
+.box-container.tag-button span {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.box-container.tag-button:hover span {
+  display: inline-block;
+  opacity: 1;
+}
+
+.box-container.tag-button:focus span {
+  display: inline-block;
+  opacity: 1;
+}
+
+.box-container.tag-button:link {
+  text-decoration: none;
+}
+
+.box-container.tag-button:hover {
+  max-width: 100%;
+}
+
+.box-container.tag-button:focus {
+  max-width: 100%;
+}
+
+
+
+/* MISC */
+
+.misc-links-table {
+  color: var(--orange);
+  width: 100%;
+}
+
+.misc-links-table td a {
+  color: var(--orange);
+}
+
+/* ABOUT ME */
+
+.bedroom-table {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.312);
+  padding: 4px;
+  color: var(--orange);
+}
+
+.table-text {
+  padding-left: 6px
+}
+
+
+.bedroom-table img {
+  width: 26px;
+}

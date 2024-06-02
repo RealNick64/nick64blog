@@ -4,19 +4,47 @@
   <b>Note: Because I say something in the past doesn't mean I think or feel the same way I do now please dont feel offended guys ;)</b>
   <br>
   <br>
-  {{ .Params.description }}
+  <div class="hide-on-mobile">
+    {{ .Params.description }}
+  </div>
+  
 </div>
 
 <div style="display: flex; justify-content: center; margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 10px;">
-  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\updates">Site Updates</a>
-  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\life">Life</a>
-  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\music">Music</a>
-  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\movies-tv">Movies/TV</a>
-  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\gaming">Gaming</a>
-  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\tech">Tech</a>
-  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\random">Random</a>
-  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\rant">Rant</a>
-  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\informative">Informative</a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\updates">
+      <img src="/images/icons/website.png">
+      <span>Site Updates</span>
+  </a>
+  <!-- <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\life">Life</a> -->
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\music">
+    <img src="/images/icons/music.png">
+    <span>Music</span>
+  </a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\movies-tv">
+    <img src="/images/icons/movies.png">
+    <span>Movies/TV</span>
+  </a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\gaming">
+    <img src="/images/icons/games.png">
+    <span>Gaming</span>
+  </a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\tech">
+    <img src="/images/icons/tech.png">
+    <span>Technology</span>
+  </a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\random">
+    <img src="/images/icons/random.png">
+    <span>Random</span>
+  </a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\rant">
+    <img src="/images/icons/rant.png">
+    <span>Rant</span>
+  </a>
+  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\videos">
+    <img src="/images/icons/play.png">
+    <span>Videos</span>
+  </a>
+  <!-- <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\informative">Informative</a> -->
 </div>
 
 <div class="box-container"> 

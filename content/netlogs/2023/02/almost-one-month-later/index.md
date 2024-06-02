@@ -2,7 +2,7 @@
 title: "(Almost) One Month Later"
 date: 2023-02-19T15:30:15-07:00
 draft: false
-tags: ["random", "rant", "life"]
+tags: ["random", "rant"]
 ---
 
 Well, it sure has been a while, has it? 

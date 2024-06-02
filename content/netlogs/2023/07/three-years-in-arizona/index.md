@@ -2,7 +2,7 @@
 title: "Three Years in Arizona"
 date: 2023-07-01T12:37:19-07:00
 draft: false
-tags: ["life", "rant"]
+tags: ["random", "rant"]
 ---
 
 Today marks three years since I moved from Washington to Arizona. It's weird to think that it's been that long now, and I want to reflect on that time, since I will be moving back in a month.

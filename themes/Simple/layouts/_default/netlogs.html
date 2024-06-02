@@ -1,0 +1,29 @@
+{{ define "main" }}
+<b>NOTE TO LEGACY MODE USERS: Some posts may contain unsupported formats, such as YouTube embeds, high-resolution images, etc.</b>
+<br>
+<br>
+{{ .Params.description }}
+<br>
+<br>
+<hr>
+
+<center>
+  <table border="1">
+    <tr>
+      <td style="background-color: #f5ae08;"><a href="{{ .Site.Params.baseURL }}\tags\updates"><b>Site Updates</b></a></td>
+      <td style="background-color: #f5ae08;"><a href="{{ .Site.Params.baseURL }}\tags\life"><b>Life</b></a></td>
+      <td style="background-color: #f5ae08;"><a href="{{ .Site.Params.baseURL }}\tags\music"><b>Music</b></a></td>
+      <td style="background-color: #f5ae08;"><a href="{{ .Site.Params.baseURL }}\tags\movies-tv"><b>Movies/TV</b></a></td>
+      <td style="background-color: #f5ae08;"><a href="{{ .Site.Params.baseURL }}\tags\gaming"><b>Gaming</b></a></td>
+      <td style="background-color: #f5ae08;"><a href="{{ .Site.Params.baseURL }}\tags\tech"><b>Tech</b></a></td>
+      <td style="background-color: #f5ae08;"><a href="{{ .Site.Params.baseURL }}\tags\random"><b>Random</b></a></td>
+      <td style="background-color: #f5ae08;"><a href="{{ .Site.Params.baseURL }}\tags\rant"><b>Rant</b></a></td>
+      <td style="background-color: #f5ae08;"><a href="{{ .Site.Params.baseURL }}\tags\informative"><b>Informative</b></a></td>
+    </tr>
+  </table> 
+</center>
+<hr>
+{{ partial "list" . }}
+
+{{ end }}
+

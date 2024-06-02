@@ -4,7 +4,7 @@ description: "I talk about my life so far, motivating myself to make the most of
 image: ""
 date: 2023-09-21T21:48:40-07:00
 draft: false
-tags: ["life", "gaming", "tech", "updates"]
+tags: ["random", "gaming", "tech", "updates"]
 ---
 
 # MUSIC I LIKE PART: ???

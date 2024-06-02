@@ -2,9 +2,9 @@ baseURL = 'https://nick64.me/'
 languageCode = 'en-us'
 title = 'Nick64'
 
-copyright = "2023 Nick64 oh wait i dont care"
+copyright = "2024 Nick64 oh wait i dont care"
 
-theme = "SkY2K"
+theme = "SkY2K2"
 canonifyURLs = true
 
 [taxonomies]

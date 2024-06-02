@@ -4,7 +4,7 @@ description: "I talk about the FNAF movie."
 image: ""
 date: 2023-11-02T10:58:51-07:00
 draft: false
-tags: ["movies-tv", "life"]
+tags: ["movies-tv", "random"]
 ---
 
 This morning, I woke up to a really nice rainy sky. The weather is really nice right now, so I'm kind of in a good mood.

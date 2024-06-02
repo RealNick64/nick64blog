@@ -1,0 +1,10 @@
+{{ define "main" }}
+
+<h2>{{ .Title }}</h2>
+<i>{{ .Params.date.Format .Site.Params.dateFormat }}</i>
+<hr>
+
+{{ .Content }}
+<hr>
+
+{{ end }}

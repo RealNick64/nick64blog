@@ -2,7 +2,7 @@
 title: "Reflecting on the Year"
 date: 2022-12-31T15:49:49-07:00
 draft: false
-tags: ["rant", "random", "life"]
+tags: ["rant", "random"]
 ---
 
 Well… it’s been a year, hasn’t it? I think it’s time I reflected on myself and what I’ve done the whole year.		

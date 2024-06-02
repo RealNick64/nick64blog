@@ -2,7 +2,7 @@
 title: "Goodwill Hunting (Not the Movie)"
 date: 2023-04-01T19:14:58-07:00
 draft: false
-tags: ["random", "life"]
+tags: ["random"]
 ---
 
 Today is April Fools!       

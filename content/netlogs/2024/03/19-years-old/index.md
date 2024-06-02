@@ -4,7 +4,7 @@ description: "I turned 19 today."
 image: ""
 date: 2024-03-14T09:13:16-07:00
 draft: false
-tags: ["life", "site-updates"]
+tags: ["random", "site-updates"]
 ---
 
 Happy birthday to me.

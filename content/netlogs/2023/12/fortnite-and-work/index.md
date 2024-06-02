@@ -4,7 +4,7 @@ description: "I ramble about life and my projects. Maybe Fortnite, too."
 image: ""
 date: 2023-12-10T12:56:58-08:00
 draft: false
-tags: ["life", "rant", "gaming"]
+tags: ["random", "rant", "gaming"]
 ---
 
 Well, today's Sunday (editor note: as of writing), and I was going to type out a post, but I've decided to do another text to speech post again, so hopefully the text (and my thoughts) doesn't get messed up by the time I finish this.

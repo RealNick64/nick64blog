@@ -4,7 +4,7 @@ description: "I catch up on life and talk about my site, my life, driving, Minec
 image: "images/DSC00104.JPG"
 date: 2023-08-07T15:30:38-07:00
 draft: false
-tags: ["life", "gaming", "updates"]
+tags: ["random", "gaming", "updates"]
 ---
 
 It's been a second since I posted. What happened?

@@ -4,7 +4,7 @@ description: "I discuss how I left my job, start to prepare for moving as the da
 image: ""
 date: 2023-07-27T22:47:56-07:00
 draft: false
-tags: ["life"]
+tags: ["random"]
 ---
 
 A song for you to enjoy:

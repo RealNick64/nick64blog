@@ -4,7 +4,7 @@ description: "I rant about how my life kind of sucks right now."
 image: ""
 date: 2023-10-13T12:06:22-07:00
 draft: false
-tags: ["life", "rant"]
+tags: ["random", "rant"]
 ---
 
 Hello, reader. :)

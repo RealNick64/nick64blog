@@ -4,7 +4,7 @@ description: "Wow, I never post anymore, I am so sorry hahaha. Here's to a New Y
 image: ""
 date: 2023-12-31T22:39:54-08:00
 draft: false
-tags: ["life"]
+tags: ["random"]
 ---
 
 ### I'm back! 

@@ -4,7 +4,7 @@ description: ""
 image: ""
 date: 2024-02-16T12:01:52-08:00
 draft: false
-tags: []
+tags: ["random", "tech"]
 ---
 
 I'm back! ...For a second. I'm not sure if I'm going to be returning to the site long-term or what, but for the time being, here I am. 

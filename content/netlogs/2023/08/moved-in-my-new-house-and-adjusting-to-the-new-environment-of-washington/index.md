@@ -4,7 +4,7 @@ description: "I talk about my move and lay out my thoughts on each part of the p
 image: ""
 date: 2023-08-25T07:17:39-07:00
 draft: false
-tags: ["life"]
+tags: ["random"]
 ---
 
 This might not be published on the day I write this due to me not having internet quite yet, but as of writing this right now, it's 7:20am on August 25th, 2023.

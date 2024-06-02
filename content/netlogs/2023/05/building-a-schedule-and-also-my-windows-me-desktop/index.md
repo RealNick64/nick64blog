@@ -2,7 +2,7 @@
 title: "Building a schedule, thrifting, and also my Windows ME desktop"
 date: 2023-05-06T19:15:21-07:00
 draft: false
-tags: ["informative", "life"]
+tags: ["informative", "random"]
 ---
 
 Today, instead of doing random things, I decided to build a schedule for myself (and half-follow it).

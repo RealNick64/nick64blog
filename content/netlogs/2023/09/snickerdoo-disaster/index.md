@@ -4,7 +4,7 @@ description: "I make snickerdoodles and it kinda ends up bad."
 image: "images/20230926_163329.jpg"
 date: 2023-09-27T14:54:59-07:00
 draft: false
-tags: ["random", "life"]
+tags: ["random"]
 ---
 
 Yeah, so I tried to make snickerdoodles yesterday.

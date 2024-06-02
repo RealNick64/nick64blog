@@ -4,7 +4,7 @@ description: "I talk about what's going on and reflect on the past month."
 image: ""
 date: 2023-11-01T15:32:42-07:00
 draft: false
-tags: ["life"]
+tags: ["random"]
 ---
 
 {{< div >}}

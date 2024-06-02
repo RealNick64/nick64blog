@@ -4,7 +4,7 @@ description: "My new webcomic is finally starting! Go read it please :)))))"
 image: ""
 date: 2023-11-25T22:11:42-08:00
 draft: false
-tags: ["life", "random"]
+tags: ["random"]
 ---
 
 I've been talking about this (and trying to work on it) for a very long time now, but it's finally here.

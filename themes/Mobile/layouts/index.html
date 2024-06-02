@@ -1,0 +1,38 @@
+{{ define "main" }}
+<a style="display: none;"rel="me" href="https://wetdry.world/@nick64">Mastodon</a>
+<div class="content-container">
+    <a href="https://twitter.com/Nick64WasTaken"><img src="/images/twitter-plug.png" style="width: 100%; border: 0px; border-radius: 10px; image-rendering: pixelated; box-shadow: -2px 20px 20px -11px rgba(0, 0, 0, 0.3);"></a>
+    <div class="box-container frontpage-box">
+        <div style="display: flex; flex-direction: column;">
+            <div>
+                <h2 style="font-family: 'Neuropol'; font-size: 16px; color: var(--orange);">Latest Netlog</h2>
+
+                <script></script>
+                <div class="latest-post">
+                    {{ range ( where .Site.RegularPages "Type" "netlogs" | first 1 ) }}
+                        <li><a href="{{ .Permalink }}">{{ .Title | truncate 45 }}</a></li>
+                    {{end}}
+                </div>
+            </div>
+            <div>
+                <h2 style="font-family: 'Neuropol'; font-size: 16px; color: var(--orange);">Latest Art</h2>
+
+                <script></script>
+                <div class="latest-post">
+                    {{ range ( where .Site.RegularPages "Type" "art" | first 1 ) }}
+                        <li><a href="{{ .Permalink }}">{{ .Title | truncate 45 }}</a></li>
+                    {{end}}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="box-container frontpage-box">
+        <center>
+            {{ partial "stickers" . }}
+        </center>
+    </div>
+</div>
+
+{{ end }}

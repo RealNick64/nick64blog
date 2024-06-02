@@ -2,7 +2,7 @@
 title: "Thinking on a Saturday"
 date: 2023-05-27T18:02:42-07:00
 draft: false
-tags: ["rant", "life"]
+tags: ["rant", "random"]
 ---
 
 I feel like it’s been a while since I’ve written something about my life and my thoughts. Like real talk, not just talking about my day or a project I’m working on. 

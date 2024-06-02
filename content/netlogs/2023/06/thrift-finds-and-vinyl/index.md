@@ -2,7 +2,7 @@
 title: "Thrift finds and vinyl"
 date: 2023-06-17T14:28:03-07:00
 draft: false
-tags: ["music", "thrifting", "rant"]
+tags: ["music", "rant"]
 ---
 
 Yesterday, I went to Goodwill and I found some pretty cool stuff!

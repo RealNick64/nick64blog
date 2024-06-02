@@ -2,7 +2,7 @@
 title: "Great Wolf Lodge"
 date: 2023-01-08T21:10:03-07:00
 draft: false
-tags: ["life"]
+tags: ["random"]
 ---
 
 Today, I went to Great Wolf Lodge.       

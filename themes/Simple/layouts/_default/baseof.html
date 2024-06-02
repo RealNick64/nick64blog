@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/styles.css">
+        <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    </head>
+    <body>
+        <center>
+            <table border="0">
+                <tr>
+                    <td><a href="/"><img src="/images/icons/home.gif" alt="Home"></a></td>
+                    <td><a href="/netlogs"><img src="/images/icons/netlogs.gif" alt="Netlogs"></a></td>
+                    <td><a href="/art"><img src="/images/icons/art.gif" alt="Art"></a></td>
+                    <td><a href="/info"><img src="/images/icons/info.gif" alt="Info"></a></td>
+                </tr>
+            </table>
+        </center>
+        <hr>
+        {{ block "main" . }}
+
+        {{ end }}
+    </body>
+
+</html>

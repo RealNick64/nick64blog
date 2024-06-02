@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+        <div id="clouds-container">
+            <div id="sidebar">
+                <div class="box-container sidebar-tab">
+                    <a href="/">
+                        <div class="sidebar-flex">
+                            <img src="/images/icons/home.png">
+                            <div class="sidebar-text">Home</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="box-container sidebar-tab">
+                    <a href="/netlogs">
+                        <div class="sidebar-flex">
+                            <img src="/images/icons/netlogs.png">
+                            <div class="sidebar-text">Netlogs</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="box-container sidebar-tab">
+                    <a href="/art">
+                        <div class="sidebar-flex">
+                            <img src="/images/icons/art.png">
+                            <div class="sidebar-text">Art</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="box-container sidebar-tab">
+                    <a href="/archive">
+                        <div class="sidebar-flex">
+                            <img src="/images/icons/archive.png">
+                            <div class="sidebar-text">Archive</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="box-container sidebar-tab">
+                    <a href="/info">
+                        <div class="sidebar-flex">
+                            <img src="/images/icons/info.png">
+                            <div class="sidebar-text">Info</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="box-container sidebar-tab">
+                    <a href="https://ko-fi.com/nick64">
+                        <div class="sidebar-flex">
+                            <img src="/images/icons/donate.png">
+                            <div class="sidebar-text">Donate</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div id="content-container">
+                {{- block "main" . }}{{- end }}
+            </div>
+        </div>
+    </body>
+</html>

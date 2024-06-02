@@ -4,7 +4,7 @@ description: "My website turned 1 year old today!"
 image: ""
 date: 2023-11-25T11:19:36-08:00
 draft: false
-tags: ["site-updates"]
+tags: ["updates"]
 ---
 
 I almost forgot, but today my website (at least, as it currently is) is one year old! My first post was written on November 25th, 2022. It's interesting to think it's been a year now, it honestly doesn't really feel like it. But when I look back... yeah, ok maybe I feel it now.

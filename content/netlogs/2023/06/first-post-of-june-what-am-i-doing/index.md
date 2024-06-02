@@ -2,7 +2,7 @@
 title: "First post of June: What am I doing?"
 date: 2023-06-04T10:26:40-07:00
 draft: false
-tags: ["life", "rant"]
+tags: ["random", "rant"]
 ---
 
 It's been a little bit since I wrote, I sadly missed the first day of June... What have I been up to?

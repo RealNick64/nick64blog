@@ -4,7 +4,7 @@ description: "I went to Savers and Barnes and Noble today and picked up some man
 image: "images/DSC01088.JPG"
 date: 2023-07-19T19:34:37-07:00
 draft: false
-tags: ["life", "random"]
+tags: ["random"]
 ---
 
 {{< image src="images/DSC01088.JPG" >}}

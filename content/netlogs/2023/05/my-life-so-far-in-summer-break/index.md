@@ -2,7 +2,7 @@
 title: "My life so far in summer break"
 date: 2023-05-31T12:08:59-07:00
 draft: false
-tags: ["random", "life"]
+tags: ["random"]
 ---
 
 It's been a week since school ended for me. I think. It feels like way more. But I've been trying to make that time count in my days.

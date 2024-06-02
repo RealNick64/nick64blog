@@ -2,7 +2,7 @@
 title: "RING POP PROGRAMMING!!!!!"
 date: 2022-12-02T15:29:01-07:00
 draft: false
-tags: ["rant", "random", "life"]
+tags: ["rant", "random"]
 categories: ["posts"]
 ---
 

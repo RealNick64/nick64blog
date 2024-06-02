@@ -2,7 +2,7 @@
 title: "First Post of May, Status Update!"
 date: 2023-05-01T22:47:15-07:00
 draft: false
-tags: ["life"]
+tags: ["random"]
 ---
 
 {{< image src="images/image.jpg" >}}

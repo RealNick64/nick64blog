@@ -4,7 +4,7 @@ description: "My motherboard for my server arrived, but I'm having some trouble 
 image: ""
 date: 2023-10-20T20:50:41-07:00
 draft: false
-tags: ["life", "tech", "gaming"]
+tags: ["random", "tech", "gaming"]
 ---
 
 I'm probably gonna post this the next day instead of tonight, so as of writing, it's currently October 20th.

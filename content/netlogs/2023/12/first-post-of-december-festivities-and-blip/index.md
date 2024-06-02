@@ -4,7 +4,7 @@ description: "I talk a little bit about life and my new webcomic."
 image: ""
 date: 2023-12-04T09:50:59-08:00
 draft: false
-tags: ["life", "random"]
+tags: ["random"]
 ---
 
 It's been a few days since I wrote here, so why not catch up?

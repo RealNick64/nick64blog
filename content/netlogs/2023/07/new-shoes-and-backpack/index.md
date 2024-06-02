@@ -4,7 +4,7 @@ description: "I got new Chuck Taylors and a JanSport backpack."
 image: "images/DSC01079.JPG"
 date: 2023-07-16T14:19:13-07:00
 draft: false
-tags: ["life", "random"]
+tags: ["random"]
 ---
 
 In the past two weeks, I've bought some new shoes and a backpack. I've been trying to make my fashion match what I like and overall just look better and more presentable instead of being super casual and lazy about my clothes.

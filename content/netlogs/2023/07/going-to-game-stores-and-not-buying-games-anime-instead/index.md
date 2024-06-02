@@ -2,7 +2,7 @@
 title: "Going to game stores and not buying games (anime instead)"
 date: 2023-07-05T22:37:28-07:00
 draft: false
-tags: ["life", "gaming"]
+tags: ["random", "gaming"]
 ---
 
 On July 5th, I went out with a coworker to check out a bunch of stores in the Phoenix/Tempe area. I was initially really nervous because I've never really went out with people outside of school or my family or stuff, this is just kind of... a guy. But it turns out I didn't get murdered and actually had lots of fun.

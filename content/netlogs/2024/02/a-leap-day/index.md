@@ -4,7 +4,7 @@ description: "I talk about my job... again. And I also talk about recording vide
 image: ""
 date: 2024-02-29T08:51:07-08:00
 draft: false
-tags: ["rant", "random", "life"]
+tags: ["rant", "random"]
 ---
 
 Writing this in bed on the 28th, probably will post tomorrow. Just gonna write a short thing, since I don't have a lot to say, just wanna write and talk about stuff.

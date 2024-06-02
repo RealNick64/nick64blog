@@ -4,7 +4,7 @@ description: "Have a good Thanksgiving, guys :)"
 image: ""
 date: 2023-11-23T10:37:44-08:00
 draft: false
-tags: ["life"]
+tags: ["random"]
 ---
 
 I'm not gonna write much, but I just wanted to say happy Thanksgiving! I'm gonna be relaxing today and not doing a lot, just working on my stuff.

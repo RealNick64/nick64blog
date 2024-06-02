@@ -4,7 +4,7 @@ description: "I talk about my time at Everett Mall with my friends, playing arca
 image: ""
 date: 2023-09-25T13:44:08-07:00
 draft: false
-tags: ["life", "updates"]
+tags: ["random", "updates"]
 ---
 
 A couple of days ago, I went out with a couple of friends from my high school to Everett Mall to hang out. It was actually kind of fun.

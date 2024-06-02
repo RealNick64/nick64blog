@@ -2,7 +2,7 @@
 title: "Thrift finds (6-22-23)"
 date: 2023-06-24T16:37:02-07:00
 draft: false
-tags: ["life", "tech", "gaming"]
+tags: ["random", "tech", "gaming"]
 ---
 
 Forgot to make this post. Whoops.

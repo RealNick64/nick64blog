@@ -4,7 +4,7 @@ description: "Sorry for all my negativity, I'm gonna turn things around, promise
 image: "images/luckystar-animegirl.gif"
 date: 2023-10-29T12:49:40-07:00
 draft: false
-tags: ["life"]
+tags: ["random"]
 ---
 
 It's been a second since I've wrote here, and I've been thinking a bit about my mood a bit, and how a lot of what I've written is more negative than positive. I kinda uh... don't want to be like that much. 

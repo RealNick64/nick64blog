@@ -4,7 +4,7 @@ description: "I talk about getting a job, and also give a very large update (mor
 image: ""
 date: 2023-11-16T13:01:17-08:00
 draft: false
-tags: ["life", "rant"]
+tags: ["random", "rant"]
 ---
 
 I haven't wrote here for a tiny bit, just been busy with life, but I have some time to write, so I want to just give an update now.

@@ -2,7 +2,7 @@
 title: "Graduation"
 date: 2023-05-24T11:33:30-07:00
 draft: false
-tags: ["life"]
+tags: ["random"]
 ---
 
 Today, I graduate from high school. It's pretty weird to think about. It feels like life went by really quick, but when I really think about it, man have I been through a lot. 

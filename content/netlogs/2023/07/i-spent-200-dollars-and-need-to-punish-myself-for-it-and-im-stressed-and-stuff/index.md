@@ -4,7 +4,7 @@ description: "I break down over spending a ton of money, being pressured by a fr
 image: "images/DSC00071.JPG"
 date: 2023-07-28T21:46:14-07:00
 draft: false
-tags: ["rant", "life"]
+tags: ["rant", "random"]
 ---
 
 {{< image src="images/DSC00071.JPG" text="Look at all this shit" alt="Spiderman: Into the Spider-Verse on 4K Blu-Ray, a Gen 2 Tamagotchi, erased Vol 1 Hardcover, a CD of Ten by Pearl Jam, an Evangelion art book, and another Evangelion omnibus" >}}

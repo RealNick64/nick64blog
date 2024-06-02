@@ -2,7 +2,7 @@
 title: "The weekend, Fullmetal Alchemist, old Roblox, and... more?"
 date: 2023-05-14T21:21:22-07:00
 draft: false
-tags: ["random", "gaming", "life", "movies-tv"]
+tags: ["random", "gaming", "movies-tv"]
 ---
 
 Sorry for lying about posting yesterday, I was too tired lol.

@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+<div class="box-container post-container" > 
+  <div style="margin: 1em;  height: 100%; overflow-y: auto;">
+    <h2>{{ .Title }}</h2>
+    <div class="post-info" style="margin-top: -1em;">
+      <p class="post-date">{{ .Params.date.Format .Site.Params.dateFormat }}</p>
+      <span>
+        {{ range $tag := .Params.tags }}
+          {{ if eq $tag "updates" }}
+            <img src="/images/icons/website.png">
+          {{ end }}
+          {{ if eq $tag "movies-tv" }}
+            <img src="/images/icons/movies.png">
+          {{ end }}
+          {{ if eq $tag "gaming" }}
+            <img src="/images/icons/games.png">
+          {{ end }}
+          {{ if eq $tag "tech" }}
+            <img src="/images/icons/tech.png">
+          {{ end }}
+          {{ if eq $tag "random" }}
+            <img src="/images/icons/random.png">
+          {{ end }}
+          {{ if eq $tag "videos" }}
+            <img src="/images/icons/play.png">
+          {{ end }}
+          {{ if eq $tag "rant" }}
+            <img src="/images/icons/rant.png">
+          {{ end }}
+          {{ if eq $tag "music" }}
+            <img src="/images/icons/music.png">
+          {{ end }}
+        {{ end }}
+      </span>
+    </div>
+    <hr>
+    {{ .Content }}
+  </div>
+</div>
+
+{{ end }}

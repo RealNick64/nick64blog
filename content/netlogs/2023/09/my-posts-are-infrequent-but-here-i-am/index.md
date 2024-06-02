@@ -4,7 +4,7 @@ description: "I discuss the site overhaul, migrating from GitHub Pages to a VPS,
 image: ""
 date: 2023-09-07T09:36:40-07:00
 draft: false
-tags: ["life", "updates"]
+tags: ["random", "updates"]
 ---
 
 {{< image src="images/image.jpg" alt="Meme that reads 'THIS IS WHAT HAPPENS'">}}

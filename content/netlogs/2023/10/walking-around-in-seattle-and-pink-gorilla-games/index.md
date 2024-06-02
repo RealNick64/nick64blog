@@ -4,7 +4,7 @@ description: "I walk around Seattle and go to Pink Gorilla as well."
 image: "images/20231004_132432.jpg"
 date: 2023-10-04T16:04:31-07:00
 draft: false
-tags: ["life", "gaming"]
+tags: ["random", "gaming"]
 ---
 
 Today, I went into Seattle to walk around and explore a bit. 

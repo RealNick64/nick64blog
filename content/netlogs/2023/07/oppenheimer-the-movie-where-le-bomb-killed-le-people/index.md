@@ -4,7 +4,7 @@ description: "I watched Oppenheimer in one of the few theaters with an IMAX 70mm
 image: "images/DSC00066.JPG"
 date: 2023-07-24T21:33:24-07:00
 draft: false
-tags: ["movies-tv", "life"]
+tags: ["movies-tv", "random"]
 ---
 
 Yesterday, I watched Oppenheimer in theaters. And not just in *any* old theater. I watched it at Harkins in Arizona Mills, one of about 30 theaters in the ***entire world*** to have the equipment to project 70mm IMAX, which Oppenheimer was presented in. And I gotta say, it was quite an experience.

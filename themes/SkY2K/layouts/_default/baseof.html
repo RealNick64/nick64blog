@@ -1,96 +1,63 @@
 <html>
     <head>
         <link rel="stylesheet" href="/css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         {{ partial "meta" .}}
     </head>
+
     <body>
-        <div class="clouds-container">
-            <table class="sidebar-table">
-                <tr>
-                    <td>
-                        <a href="/" class="sidebar-link">
-                            <div style="display: flex; justify-content: left; align-items: center;">
-                                <img style="width: 17px;" src="/images/icons/home.png">
-                                <div style="margin-left: 8px">Home</div>
-                            </div>
-                        </a>
-                    </td>
-                </tr>
-                <!-- <tr>
-                    <td>
-                        <a href="https://globalcomix.com/c/test-49" class="sidebar-link">
-                            <div style="display: flex; justify-content: left; align-items: center;">
-                                <img style="width: 17px;" src="/images/icons/bedroom.png">
-                                <div style="margin-left: 8px">Blip</div>
-                            </div>
-                        </a>
-                    </td>
-                </tr> -->
-                <tr>
-                    <td>
-                        <a href="/bedroom" class="sidebar-link">
-                            <div style="display: flex; justify-content: left; align-items: center;">
-                                <img style="width: 17px;" src="/images/icons/bedroom.png">
-                                <div style="margin-left: 8px">Bedroom</div>
-                            </div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/netlogs" class="sidebar-link">
-                            <div style="display: flex; justify-content: left; align-items: center;">
-                                <img style="width: 17px;" src="/images/icons/netlogs.png">
-                                <div style="margin-left: 8px">Netlogs</div>
-                            </div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/art" class="sidebar-link">
-                            <div style="display: flex; justify-content: left; align-items: center;">
-                                <img style="width: 17px;" src="/images/icons/art.png">
-                                <div style="margin-left: 8px">Art</div>
-                            </div>
-                        </a>
-                    </td>
-                </tr>
-                <!-- <tr>
-                    <td>
-                        <a href="/misc" class="sidebar-link">
-                            <div style="display: flex; justify-content: left; align-items: center;">
-                                <img style="width: 17px;" src="/images/icons/misc.png">
-                                <div style="margin-left: 8px">Misc</div>
-                            </div>
-                        </a>
-                    </td>
-                </tr> -->
-                <tr>
-                    <td>
-                        <a href="/info" class="sidebar-link">
-                            <div style="display: flex; justify-content: left; align-items: center;">
-                                <img style="width: 17px;" src="/images/icons/info.png">
-                                <div style="margin-left: 8px">Info</div>
-                            </div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="https://ko-fi.com/nick64" class="sidebar-link">
-                            <div style="display: flex; justify-content: left; align-items: center;">
-                                <img style="width: 17px;" src="/images/icons/donate.png">
-                                <div style="margin-left: 8px">Donate</div>
-                            </div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td height="100%" style="background-color: transparent; box-shadow: none;"></td>
-                </tr>
-            </table>
-            <div class="main-container">
+        <div id="clouds-container">
+            <div id="sidebar">
+                <div class="box-container sidebar-tab">
+                    <a href="/">
+                        <div class="sidebar-flex">
+                            <img style="width: 17px;" src="/images/icons/home.png">
+                            <div class="sidebar-text">Home</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="box-container sidebar-tab">
+                    <a href="/netlogs">
+                        <div class="sidebar-flex">
+                            <img style="width: 17px;" src="/images/icons/netlogs.png">
+                            <div class="sidebar-text">Netlogs</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="box-container sidebar-tab">
+                    <a href="/art">
+                        <div class="sidebar-flex">
+                            <img style="width: 17px;" src="/images/icons/art.png">
+                            <div class="sidebar-text">Art</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="box-container sidebar-tab">
+                    <a href="/archive">
+                        <div class="sidebar-flex">
+                            <img style="width: 17px;" src="/images/icons/archive.png">
+                            <div class="sidebar-text">Archive</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="box-container sidebar-tab">
+                    <a href="/info">
+                        <div class="sidebar-flex">
+                            <img style="width: 17px;" src="/images/icons/info.png">
+                            <div class="sidebar-text">Info</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="box-container sidebar-tab">
+                    <a href="https://ko-fi.com/nick64">
+                        <div class="sidebar-flex">
+                            <img style="width: 17px;" src="/images/icons/donate.png">
+                            <div class="sidebar-text">Donate</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="main-container">
                     {{ block "main" . }}
         
                     {{ end }}

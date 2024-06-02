@@ -2,7 +2,7 @@
 title: "Thrift Finds (04-25-23)"
 date: 2023-04-25T22:11:09-07:00
 draft: false
-tags: ["life", "random"]
+tags: ["random"]
 ---
 
 {{< image src="images/DSC00975.JPG" >}}

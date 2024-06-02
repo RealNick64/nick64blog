@@ -2,7 +2,7 @@
 title: "True Selves"
 date: 2022-12-12T22:15:57-07:00
 draft: false
-tags: ["rant", "life"]
+tags: ["rant", "random"]
 ---
 
 I was thinking about things tonight like I always do and something interesting that I thought about is the fact that there are so many layers and factors to take into account when looking at people. A lot of people define others based on factors like looks, external actions, etc. And no, I'm not about to go Kanye mode and say Hitler was good or something. I just mean that when we look at people, we can't really know their true character.       

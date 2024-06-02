@@ -2,7 +2,7 @@
 title: "Confrontation"
 date: 2022-12-08T14:52:28-07:00
 draft: true
-tags: ["rant", "life"]
+tags: ["rant", "random"]
 ---
 
 I’ve never been too good with confronting people for anything, really. I’ve always been kind of a coward. I don’t like speaking out about issues, because I don’t want to cause problems for myself or make other people mad. But even without confronting things, I still feel like I make things worse. 

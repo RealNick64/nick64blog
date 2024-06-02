@@ -3,7 +3,7 @@ title: "July and the heat death of Arizona"
 date: 2023-07-11T13:27:03-07:00
 image: "images/20230710_164549.jpg"
 draft: false
-tags: ["life", "random"]
+tags: ["random"]
 description: "I go over my life in July and discuss things like my social media presence, my art, moving away, and Prime Day."
 ---
 

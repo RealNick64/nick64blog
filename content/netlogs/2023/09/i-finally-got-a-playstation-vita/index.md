@@ -4,7 +4,7 @@ description: "I acquire a PS Vita 1100 model, and I talk about it as much as I c
 image: "images/20230913_202351.jpg"
 date: 2023-09-13T19:48:29-07:00
 draft: false
-tags: ["tech", "gaming", "life"]
+tags: ["tech", "gaming", "random"]
 ---
 
 After shilling it for so long, I finally got one!!!
