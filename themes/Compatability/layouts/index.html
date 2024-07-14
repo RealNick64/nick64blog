@@ -1,207 +1,122 @@
 {{ define "main" }}
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+        <td>
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="16"><img src="/images/top-left-corner-orange-16.gif"></td>
+                    <td bgcolor="f56b08" colspan="2"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="f56b08" width="8"></td>
+                    <td bgcolor="f56b08" height="200px">
+                        <table border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <img src="/images/latest-netlogs.gif">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div style="text-align: left;">
+                                        <script></script>
+                                        <div id="latest-posts">
+                                            {{ range ( where .Site.RegularPages "Type" "netlogs" | first 4 ) }}
+                                            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                                            {{end}}
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="/images/latest-art.gif">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div style="text-align: left;">
+                                        <script></script>
+                                        <div id="latest-posts">
+                                            {{ range ( where .Site.RegularPages "Type" "art" | first 4 ) }}
+                                            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                                            {{end}}
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td bgcolor="f56b08" width="8"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="f56b08"  colspan="2"></td>
+                    <td width="16"><img src="/images/bottom-right-corner-orange-16.gif"></td>
+                </tr>
+            </table>
+        </td>
+        <td width="8"></td>
+        <td>
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="16"><img src="/images/top-left-corner-orange-16.gif"></td>
+                    <td bgcolor="f56b08" colspan="2"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="f56b08" width="8"></td>
+                    <td bgcolor="f56b08" height="200px">
+                        <table border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <img src="/images/latest-netlogs.gif">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div style="text-align: left;">
+                                        <script></script>
+                                        <div id="latest-posts">
+                                            {{ range ( where .Site.RegularPages "Type" "netlogs" | first 4 ) }}
+                                            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                                            {{end}}
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="/images/latest-netlogs.gif">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div style="text-align: left;">
+                                        <script></script>
+                                        <div id="latest-posts">
+                                            {{ range ( where .Site.RegularPages "Type" "art" | first 4 ) }}
+                                            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                                            {{end}}
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td bgcolor="f56b08" width="8"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="f56b08"  colspan="2"></td>
+                    <td width="16"><img src="/images/bottom-right-corner-orange-16.gif"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+<br>
 <center>
-    <table>
-        <tr>
-            <td>
-                <table width="270" height="354" bgcolor="#f5ae08" border="0" cellpadding="0" cellspacing="0">
-                    <tr>
-                        <td>
-                            <img style="display: block" src="/images/box-corner-top-left.gif">
-                        </td>
-                        <td width="100%" bgcolor="#000000"></td>
-                        <td>
-                            <img style="display: block" src="/images/box-corner-top-right.gif">
-                        </td>
-                    </tr>
-                    <tr height="170" bgcolor="black">
-                        <td colspan="3">
-                            <div style="text-align: left;" class="box-container">
-                                <img src="/images/front-page/latest-netlogs.gif">
-                                <script></script>
-                                <div id="latest-posts">
-                                    {{ range ( where .Site.RegularPages "Type" "netlogs" | first 4 ) }}
-                                    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-                                    {{end}}
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr height="170" bgcolor="black">
-                        <td colspan="3">
-                            <div style="text-align: left;" class="box-container">
-                                <img src="/images/front-page/latest-art.gif">
-                                <script></script>
-                                <div id="latest-posts">
-                                    {{ range ( where .Site.RegularPages "Type" "art" | first 4 ) }}
-                                    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-                                    {{end}}
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img style="display: block" src="/images/box-corner-bottom-left.gif">
-                        </td>
-                        <td width="100%" bgcolor="#000000"></td>
-                        <td>
-                            <img style="display: block" src="/images/box-corner-bottom-right.gif">
-                        </td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table width="270" height="354" bgcolor="black" border="0" cellpadding="0" cellspacing="0">
-                    <tr>
-                        <td>
-                            <img style="display: block" src="/images/box-corner-top-left.gif">
-                        </td>
-                        <td width="100%" bgcolor="black"></td>
-                        <td>
-                            <img style="display: block" src="/images/box-corner-top-right.gif">
-                        </td>
-                    </tr>
-                    <tr height="340" bgcolor="black">
-                        <td>
-                            <p>hi!</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img style="display: block" src="/images/box-corner-bottom-left.gif">
-                        </td>
-                        <td width="100%" bgcolor="black"></td>
-                        <td>
-                            <img style="display: block" src="/images/box-corner-bottom-right.gif">
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <br>
-    <table align="center" border="0" cellpadding="0" cellspacing="0">
-        <td>
-            <table bgcolor="black" border="0" cellpadding="0" cellspacing="0">
-                <tr>
-                    <td>
-                        <img style="display: block" src="/images/box-corner-top-left.gif">
-                    </td>
-                    <td width="100%" bgcolor="black"></td>
-                    <td>
-                        <img style="display: block" src="/images/box-corner-top-right.gif">
-                    </td>
-                </tr>
-                <tr bgcolor="black">
-                    <td colspan="3">
-                        <a href="https://ko-fi.com/nick64">
-                            <img style="display: block; border: 0;" src="/images/front-page/ko-fi-donate.gif">
-                        </a> 
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img style="display: block" src="/images/box-corner-bottom-left.gif">
-                    </td>
-                    <td  bgcolor="black"></td>
-                    <td>
-                        <img style="display: block" src="/images/box-corner-bottom-right.gif">
-                    </td>
-                </tr>
-            </table>
-        </td>
-        <td width="10"></td>
-        <td>
-            <table bgcolor="black" border="0" cellpadding="0" cellspacing="0">
-                <tr>
-                    <td>
-                        <img style="display: block" src="/images/box-corner-top-left.gif">
-                    </td>
-                    <td width="100%" bgcolor="black"></td>
-                    <td>
-                        <img style="display: block" src="/images/box-corner-top-right.gif">
-                    </td>
-                </tr>
-                <tr bgcolor="black">
-                    <td colspan="3">
-                        <center>
-                            <a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-34452-75">
-                                <img style="display: block; border: 0;" src="/images/front-page/sign-guestbook.gif">
-                            </a> 
-                        </center>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img style="display: block" src="/images/box-corner-bottom-left.gif">
-                    </td>
-                    <td width="100%" bgcolor="black"></td>
-                    <td>
-                        <img style="display: block" src="/images/box-corner-bottom-right.gif">
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </table>
-    <br>
-    <table align="center" border="0" cellpadding="0" cellspacing="0">
-        <tr>
-            <td>
-                <img style="display: block" src="/images/box-corner-top-left.gif">
-            </td>
-            <td width="100%" bgcolor="black"></td>
-            <td>
-                <img style="display: block" src="/images/box-corner-top-right.gif">
-            </td>
-        </tr>
-        <tr bgcolor="black">
-            <td colspan="3">
-                <center>
-                    <a href="https://nick64.me"><img style="border: 0px" src="/images/button.gif"></a>
-                    <textarea style="margin-left: 0.5em;" cols="20em">"<a href="https://nick64.me"><img src="/images/button.gif"></a>"</textarea>
-                </center>
-                
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img style="display: block" src="/images/box-corner-bottom-left.gif">
-            </td>
-            <td  bgcolor="black"></td>
-            <td>
-                <img style="display: block" src="/images/box-corner-bottom-right.gif">
-            </td>
-        </tr>
-        <tr>
-            <td height="8"></td>
-        </tr>
-        <tr>
-            <td>
-                <img style="display: block" src="/images/box-corner-top-left.gif">
-            </td>
-            <td width="100%" bgcolor="black"></td>
-            <td>
-                <img style="display: block" src="/images/box-corner-top-right.gif">
-            </td>
-        </tr>
-        <tr bgcolor="black">
-            <td width="20" bgcolor="black"></td>
-            <td>
-                <center>
-                    {{ partial "stickers" . }}
-                </center>
-            </td>
-            <td width="20" bgcolor="black"></td>
-        </tr>
-        <tr>
-            <td>
-                <img style="display: block" src="/images/box-corner-bottom-left.gif">
-            </td>
-            <td bgcolor="black"></td>
-            <td>
-                <img style="display: block" src="/images/box-corner-bottom-right.gif">
-            </td>
-        </tr>
-    </table>
+    {{ partial "stickers" . }}
 </center>
+
 {{ end }}

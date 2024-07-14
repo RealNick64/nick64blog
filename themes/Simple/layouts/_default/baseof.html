@@ -2,23 +2,25 @@
 <html>
     <head>
         <link rel="stylesheet" href="/css/styles.css">
-        <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     </head>
     <body>
-        <center>
-            <table border="0">
-                <tr>
-                    <td><a href="/"><img src="/images/icons/home.gif" alt="Home"></a></td>
-                    <td><a href="/netlogs"><img src="/images/icons/netlogs.gif" alt="Netlogs"></a></td>
-                    <td><a href="/art"><img src="/images/icons/art.gif" alt="Art"></a></td>
-                    <td><a href="/info"><img src="/images/icons/info.gif" alt="Info"></a></td>
-                </tr>
-            </table>
-        </center>
-        <hr>
-        {{ block "main" . }}
+        <div style="max-width: 768px; margin-left: auto; margin-right: auto;"> 
+            <center>
+                <table border="1">
+                    <tr>
+                        <td bgcolor="0f0f0f"><a href="/"><img src="/images/home.gif" alt="Home"></a></td>
+                        <td bgcolor="0f0f0f"><a href="/netlogs"><img src="/images/netlogs.gif" alt="Netlogs"></a></td>
+                        <td bgcolor="0f0f0f"><a href="/art"><img src="/images/art.gif" alt="Art"></a></td>
+                        <td bgcolor="0f0f0f"><a href="/info"><img src="/images/info.gif" alt="Info"></a></td>
+                    </tr>
+                </table>
+            </center>
+            <hr>
+            {{ block "main" . }}
 
-        {{ end }}
+            {{ end }}
+        </div>
     </body>
 
 </html>

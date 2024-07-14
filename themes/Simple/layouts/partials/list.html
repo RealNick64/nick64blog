@@ -25,9 +25,51 @@
 <article>
   <ul>
       {{- range $Pages }}
-      <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-        <p>{{ .Params.date.Format .Site.Params.dateFormat }}</p>
+      <li style="list-style: none;">
+        <table border="0">
+          <tr>
+            <td>
+              <a href="{{ .Permalink }}"><h3 style="margin: 0;">{{ .Title }}</h3></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p style="margin: 0;">{{ .Params.date.Format .Site.Params.dateFormat }}</p>
+            </td>
+          </tr>
+          <tr>
+            <table border="0">
+              <tr>
+                {{ range $tag := .Params.tags }}
+                {{ if eq $tag "updates" }}
+                  <td><img src="/images/icons/website.gif"></td>
+                {{ end }}
+                {{ if eq $tag "movies-tv" }}
+                  <td><img src="/images/icons/movies.gif"></td>
+                {{ end }}
+                {{ if eq $tag "gaming" }}
+                  <td><img src="/images/icons/games.gif"></td>
+                {{ end }}
+                {{ if eq $tag "tech" }}
+                  <td><img src="/images/icons/tech.gif"></td>
+                {{ end }}
+                {{ if eq $tag "random" }}
+                  <td><img src="/images/icons/random.gif"></td>
+                {{ end }}
+                {{ if eq $tag "videos" }}
+                  <td><img src="/images/icons/play.gif"></td>
+                {{ end }}
+                {{ if eq $tag "rant" }}
+                  <td><img src="/images/icons/rant.gif"></td>
+                {{ end }}
+                {{ if eq $tag "music" }}
+                  <td> <img src="/images/icons/music.gif"></td>
+                {{ end }}
+              {{ end }}
+              </tr>
+            </table>
+          </tr>
+        </table> 
       </li>
       {{- end }}
   </ul>
