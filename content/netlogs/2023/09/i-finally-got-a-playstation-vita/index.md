@@ -37,7 +37,8 @@ The back still has some deep scratches and scuffs, and the front is the same but
 
 It was really surreal powering it on and seeing the UI again and hearing the super nostalgic music that reeks of the early 2010s. It's so awesome!!!!!!!
 
-{{< image src="images/DSC00123.JPG" alt="The Vita, turned on for the first time">}}
+{{< image src="images/DSC00120.JPG" alt="The Vita, turned on for the first time">}}
+
 
 Though after setup, that was sort of it because without a memory card (didn't feel like paying 30-something dollars for the 8GB memory cards they had there), there's not much you can do on these original models, since they come with absolutely NO internal storage to download games on. Because of that, earlier today, I bought a PSVSD (which was the reason I got an 1100 model) and it should be coming in a bit, since it's shipping from Mexico.
 

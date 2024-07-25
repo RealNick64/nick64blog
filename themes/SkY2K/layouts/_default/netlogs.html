@@ -1,16 +1,22 @@
 {{ define "main" }}
 
-<div class="box-container"> 
-  <b>Note: Because I say something in the past doesn't mean I think or feel the same way I do now please dont feel offended guys ;)</b>
-  <br>
-  <br>
+<style>
+  #content-container {
+    gap: 0.5em;
+  }
+</style>
+
+<div class="box-container" style="padding: 1em;"> 
   <div class="hide-on-mobile">
-    {{ .Params.description }}
+    <b>Note: Because I say something in the past doesn't mean I think or feel the same way I do now please dont feel offended guys ;)</b>
+    <br>
+    <br>
   </div>
   
+  This page is a list of all my netlogs/posts/whatever-you-want-to-call-them. Pretty cool, huh?
 </div>
 
-<div style="display: flex; justify-content: center; margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 10px;">
+<div id="tag-button-container">
   <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\updates">
       <img src="/images/icons/website.png">
       <span>Site Updates</span>
@@ -46,12 +52,12 @@
   </a>
   <!-- <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\informative">Informative</a> -->
 </div>
-
-<div class="box-container"> 
-  <div class="content-container" style="height: 488px">
+<div class="box-container post-list-container"> 
+  <div style="overflow-y: auto; max-height: 100%">
     {{ partial "list" . }}
   </div>
 </div>
+
 
 
 {{ end }}

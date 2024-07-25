@@ -1,11 +1,9 @@
 {{ define "main" }}
 
-
-
-<div class="box-container"> 
-  <div style="height: 665px" class="content-container">
+<div class="box-container post-container" > 
+  <div style="margin: 1em;  height: 100%; overflow-y: auto;">
     <h2>{{ .Title }}</h2>
-    <div style="display: flex; align-items: center; gap: 10px; image-rendering: pixelated; margin-top: -20px;">
+    <div class="post-info" style="margin-top: -1em;">
       <p class="post-date">{{ .Params.date.Format .Site.Params.dateFormat }}</p>
       <span>
         {{ range $tag := .Params.tags }}

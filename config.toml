@@ -2,10 +2,10 @@ baseURL = 'https://nick64.me/'
 languageCode = 'en-us'
 title = 'Nick64'
 
-copyright = "2024 Nick64 oh wait i dont care"
+copyright = "© 2024 Nick64 oh wait i dont care"
 
-theme = "SkY2K2"
-canonifyURLs = true
+theme = "SkY2K"
+assetDir = "static"
 
 [taxonomies]
 	tag = "tags"
@@ -16,7 +16,10 @@ canonifyURLs = true
 	sitename = "Nick64"
 	ogimage = "images/profile.png"
 	twitter = "@Nick64WasTaken"
+	
 
 [author]
-	name = "Nick64"
-	email = "nick@nick64.me"
+	[author.nick64]
+		name = "Nick64"
+		email = "nick@nick64.me"
+		twitter = "@Nick64WasTaken"

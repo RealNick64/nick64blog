@@ -1,7 +1,7 @@
 ---
 title: "Leelah (Fortnite)"
 description: ""
-image: "/content/art/leelah-fortnite/images/leelah.png"
+image: "/art/leelah-fortnite/images/leelah.png"
 date: 2023-11-23T09:55:26-08:00
 draft: false
 tags: []

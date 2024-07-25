@@ -1,5 +1,5 @@
 @echo off
-cd D:\Misc\ProgramSources\WEBSITE\nick64blog
+cd D:\Misc\Nick64-Website
 git add -A
 set /p "message=Enter message: "
 git commit -m "%message%"

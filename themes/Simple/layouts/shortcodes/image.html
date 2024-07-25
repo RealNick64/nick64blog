@@ -1,10 +1,9 @@
 <br>
 
-{{ $image := .Resources.Get "images/mobile.png" }}
-
+{{ $image := .Page.Resources.Get (.Get `src`) }}
 
 <center>
-    <a href="{{.Get `src`}}"><img style="max-width:400px" src="{{ $image }}" alt="{{.Get `alt`}}"></a>
+    <a href="{{.Get `src`}}"><img style="max-width:400px" src="{{ ( $image.Resize "350x gif" ).RelPermalink }}" alt="{{.Get `alt`}}"></a>
     <b><p>{{.Get `text`}}</p></b>
 </center>
 <br>

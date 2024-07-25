@@ -1,29 +1,21 @@
 {{ define "main" }}
 
-<div class="box-container"> 
+<style>
+  #content-container {
+    gap: 0.5em;
+  }
+</style>
+
+<div class="box-container" style="padding: 1em;"> 
   {{ .Params.description }}
 </div>
-<br>
 
-<!-- <div style="display: flex; justify-content: center;">
-  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\updates">Site Updates</a>
-  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\life">Life</a>
-  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\music">Music</a>
-  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\movies-tv">Movies/TV</a>
-  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\gaming">Gaming</a>
-  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\tech">Tech</a>
-  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\random">Random</a>
-  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\rant">Rant</a>
-  <a class="box-container tag-button" href="{{ .Site.Params.baseURL }}\tags\informative">Informative</a>
-</div>
-<br> -->
-
-
-<div class="box-container"> 
-  <div class="content-container" style="height: 590px">
+<div class="box-container post-list-container"> 
+  <div style="overflow-y: auto; max-height: 100%">
     {{ partial "list" . }}
   </div>
 </div>
+
 
 
 {{ end }}

@@ -1,17 +1,13 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="/css/styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        {{ partial "meta" .}}
-    </head>
-
+    {{- partial "head.html" . -}}
     <body>
         <div id="clouds-container">
             <div id="sidebar">
                 <div class="box-container sidebar-tab">
                     <a href="/">
                         <div class="sidebar-flex">
-                            <img style="width: 17px;" src="/images/icons/home.png">
+                            <img src="/images/icons/home.png">
                             <div class="sidebar-text">Home</div>
                         </div>
                     </a>
@@ -19,7 +15,7 @@
                 <div class="box-container sidebar-tab">
                     <a href="/netlogs">
                         <div class="sidebar-flex">
-                            <img style="width: 17px;" src="/images/icons/netlogs.png">
+                            <img src="/images/icons/netlogs.png">
                             <div class="sidebar-text">Netlogs</div>
                         </div>
                     </a>
@@ -27,7 +23,7 @@
                 <div class="box-container sidebar-tab">
                     <a href="/art">
                         <div class="sidebar-flex">
-                            <img style="width: 17px;" src="/images/icons/art.png">
+                            <img src="/images/icons/art.png">
                             <div class="sidebar-text">Art</div>
                         </div>
                     </a>
@@ -35,7 +31,7 @@
                 <div class="box-container sidebar-tab">
                     <a href="/archive">
                         <div class="sidebar-flex">
-                            <img style="width: 17px;" src="/images/icons/archive.png">
+                            <img src="/images/icons/archive.png">
                             <div class="sidebar-text">Archive</div>
                         </div>
                     </a>
@@ -43,7 +39,7 @@
                 <div class="box-container sidebar-tab">
                     <a href="/info">
                         <div class="sidebar-flex">
-                            <img style="width: 17px;" src="/images/icons/info.png">
+                            <img src="/images/icons/info.png">
                             <div class="sidebar-text">Info</div>
                         </div>
                     </a>
@@ -51,19 +47,16 @@
                 <div class="box-container sidebar-tab">
                     <a href="https://ko-fi.com/nick64">
                         <div class="sidebar-flex">
-                            <img style="width: 17px;" src="/images/icons/donate.png">
+                            <img src="/images/icons/donate.png">
                             <div class="sidebar-text">Donate</div>
                         </div>
                     </a>
                 </div>
             </div>
-            <div id="main-container">
-                    {{ block "main" . }}
-        
-                    {{ end }}
+
+            <div id="content-container">
+                {{- block "main" . }}{{- end }}
             </div>
-            
         </div>
     </body>
-
 </html>

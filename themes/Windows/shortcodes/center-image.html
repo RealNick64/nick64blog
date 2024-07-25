@@ -1,6 +1,0 @@
-
-{{ with .Get "border" }}
-    <img style="margin-left:auto;margin-right:auto;display:block;max-width:600px;max-height:auto;border:{{.Get `border`}};" src="{{.Get `link`}}">
-{{ else }}
-    <img style="margin-left:auto;margin-right:auto;display:block;max-width:600px;max-height:auto;" src="{{.Get `link`}}">
-{{ end }}

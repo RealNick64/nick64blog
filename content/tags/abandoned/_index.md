@@ -1,4 +1,0 @@
----
-title: "Abandoned"
-layout: writing
----
