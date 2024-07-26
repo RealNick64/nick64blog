@@ -4,7 +4,7 @@ title = 'Nick64'
 
 copyright = "© 2024 Nick64 oh wait i dont care"
 
-theme = "SkY2K"
+theme = "Simple"
 assetDir = "static"
 
 [taxonomies]
