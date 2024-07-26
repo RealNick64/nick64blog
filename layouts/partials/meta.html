@@ -46,10 +46,10 @@
 <meta name="twitter:creator" content="{{ .Site.Params.twitter }}" />
 
 {{ if .Params.image }} 
-  <meta itemprop="image" content="{{ . | absURL }}" />
-  <meta property="og:image" content="{{ . | absURL }}" /> 
-  <meta name="twitter:image" content="{{ . | absURL }}" />
-  <meta name="twitter:image:src" content="{{ . | absURL }}" /> 
+  <meta itemprop="image" content="{{ .Params.image | absURL }}" />
+  <meta property="og:image" content="{{ .Params.image | absURL }}" /> 
+  <meta name="twitter:image" content="{{ .Params.image | absURL }}" />
+  <meta name="twitter:image:src" content="{{ .Params.image | absURL }}" /> 
 {{ else }}
   <meta itemprop="image" content="{{ .Site.Params.ogimage | absURL }}" />
   <meta property="og:image" content="{{ .Site.Params.ogimage | absURL }}" />
