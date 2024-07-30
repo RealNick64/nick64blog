@@ -1,47 +1,39 @@
 {{ define "main" }}
+
 <center>
-    <table>
+    <table class="table-text" bgcolor="#0f0f0f" border="4" cellpadding="0" cellspacing="0">
         <tbody>
             <tr>
                 <td>
-                    <table class="table-text" bgcolor="#0f0f0f" border="4" cellpadding="0" cellspacing="0" height="320px">
+                    <table border="0" cellpadding="0" cellspacing="0">
                         <tr>
                             <td>
-                                <table border="0" cellpadding="0" cellspacing="0">
-                                    <tr>
-                                        <td>
-                                            <div>
-                                                <h3 class="table-text">Latest Netlogs</h3>
-                                                <script></script>
-                                                <div style="padding-left: 10px;">
-                                                    {{ range ( where .Site.RegularPages "Type" "netlogs" | first 4 ) }}
-                                                    <li><a class="table-text" href="{{ .Permalink }}">{{ .Title }}</a></li>
-                                                    {{end}}
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div style="text-align: left;">
-                                                <h3 class="table-text">Latest Art</h3>
-                                                <script></script>
-                                                <div style="padding-left: 10px;">
-                                                    {{ range ( where .Site.RegularPages "Type" "art" | first 4 ) }}
-                                                    <li><a class="table-text" href="{{ .Permalink }}">{{ .Title }}</a></li>
-                                                    {{end}}
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
+                                <div>
+                                    <h3 class="table-text">Latest Netlogs</h3>
+                                    <div style="padding-left: 10px;">
+                                        {{ range ( where .Site.RegularPages "Type" "netlogs" | first 4 ) }}
+                                        <li><a class="table-text" href="{{ .Permalink }}">{{ .Title  | truncate 45 }}</a></li>
+                                        {{end}}
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="text-align: left;">
+                                    <h3 class="table-text">Latest Art</h3>
+                                    <div style="padding-left: 10px;">
+                                        {{ range ( where .Site.RegularPages "Type" "art" | first 4 ) }}
+                                        <li><a class="table-text" href="{{ .Permalink }}">{{ .Title | truncate 45 }}</a></li>
+                                        {{end}}
+                                    </div>
+                                </div>
                             </td>
                         </tr>
                     </table>
                 </td>
-
                 <td>
-                    <table class="table-text" bgcolor="#0f0f0f" border="4" cellpadding="0" cellspacing="0" color="" height="320px">
+                    <table class="table-text">
                         <tr>
                             <td>
                                 <center>
@@ -51,10 +43,12 @@
                         </tr>
                         <tr>
                             <td>
-                                <p>"Sometimes, a buttnut fuckles in the tingleass."</p>
-                                <p>- Foster D. Englebottom</p>
+                                <p id="quote"></p>
+                                <p id="quoteAuthor"></p>
+
+                                <script src="js/quotes.js"></script>
                             </td>
-                        </tr>
+                        </tr> 
                     </table>
                 </td>
             </tr>
@@ -66,6 +60,7 @@
     {{ partial "stickers" . }}
 </center>
     
-    
+ 
 
 {{ end }}
+
