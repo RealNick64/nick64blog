@@ -1,17 +1,5 @@
-var quotes = [
-    "Underidoderidoderiododeridoo <br> - Winston Churchill",
-    "the j",
-    "nice penis bro, did your mom make it for you",
-    "I was getting thirsty so I had a sip of soda <br> It was too late when i realized it was scary soda"
-]
+var quotes = ["1", "2", "3"];
+var display = document.getElementsByTagName("p");
 
-var author = [
-    "- Winston Churchill",
-    "- Bill Clinton",
-    "- Nick64",
-    "- Unknown Reddit User"
-]
-
-window.onload = function newQuote() {
-    document.getElementById('quote').innerHTML = "Underidoderidoderiododeridoo <br> - Winston Churchill";
-}
+var selectedQuote = quotes[math.random(1, quotes)];
+display.innerHtml = selectedQuote;

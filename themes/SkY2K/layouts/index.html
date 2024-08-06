@@ -8,7 +8,7 @@
             <script></script>
             <div>
                 {{ range ( where .Site.RegularPages "Type" "netlogs" | first 1 ) }}
-                    <a href="{{ .Permalink }}">{{ .Title | truncate 45 }}</a>
+                    <a href="{{ .Permalink }}">{{ .Title | truncate 45 | safeHTML }}</a>
                 {{end}}
             </div>
         </div>
@@ -17,7 +17,7 @@
             <script></script>
             <div>
                 {{ range ( where .Site.RegularPages "Type" "art" | first 1 ) }}
-                    <a href="{{ .Permalink }}">{{ .Title | truncate 45 }}</a>
+                    <a href="{{ .Permalink }}">{{ .Title | truncate 45 | safeHTML }}</a>
                 {{end}}
             </div>
         </div>

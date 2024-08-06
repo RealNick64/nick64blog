@@ -44,9 +44,12 @@
                         <tr>
                             <td>
                                 <p id="quote"></p>
-                                <p id="quoteAuthor"></p>
 
-                                <script src="js/quotes.js"></script>
+                                <script>                  
+                                    var quotes = ["1", "2", "3"];
+                                    var display = document.getElementsByTagName("p");
+                                    display.innerHTML = quotes[1];
+                                </script>
                             </td>
                         </tr> 
                     </table>
