@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <div class="box-container post-container" > 
-  <div style="margin: 1em;  height: 100%; overflow-y: auto;">
+  <article style="margin: 1em;  height: 100%; overflow-y: auto;">
     <h2>{{ .Title }}</h2>
     <div class="post-info" style="margin-top: -1em;">
       <p class="post-date">{{ .Params.date.Format .Site.Params.dateFormat }}</p>
@@ -36,7 +36,7 @@
     </div>
     <hr>
     {{ .Content }}
-  </div>
+  </article>
 </div>
 
 {{ end }}

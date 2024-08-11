@@ -26,6 +26,32 @@ body {
 
 /* MAIN */
 
+#marquee {
+    width: 100%; 
+    position: absolute; 
+    background-color: rgba(0, 0, 0, 0.8); 
+    height: 1.4em; 
+    top: 0; 
+    left: 0;
+    overflow: hidden;
+}
+
+#marquee span {
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+    color: white;
+    overflow: hidden;
+}
+
+@keyframes marquee {
+    0% {
+      transform: translateX(100vw);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
+
 .box-container {
     background-color: rgba(0, 0, 0, 0.8);
     border: 0;
@@ -42,6 +68,7 @@ body {
     width: 60em;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2em;
     border: 0;
     border-radius: 1.5em;
     box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
@@ -89,6 +116,12 @@ body {
     height: 2em;
     margin-top: 0.2em;
     border-radius: 0.6em;
+    transition-duration: 0.3s;
+}
+
+.box-container.sidebar-tab:hover .sidebar-text {
+    color: var(--darker-orange);
+    transition-duration: 0.3s;
 }
 
 
@@ -101,6 +134,7 @@ body {
     color: var(--orange);
     text-decoration: none;
     font-size: 1.1em;
+    transition-duration: 0.3s;
 }
 
 /* FRONT PAGE */
@@ -190,7 +224,7 @@ body {
     height: 100%;
     padding: 1.5em;
     padding-right: 1em;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .post-list {
@@ -250,9 +284,9 @@ body {
     #clouds-container {
         flex-direction: column;
         width: 100%;
-        height: 80vh;
-        /* max-height: 40em; */
-        margin-top: 2.5em;
+        height: 92vh;
+        max-height: 92vh;
+        margin-top: 3.5em;
     }
 
     #content-container {
@@ -271,7 +305,7 @@ body {
         position: absolute;
         right: 6%;
         left: 6%;
-        top: 1em;
+        top: 2em;
     }
 
     .box-container.sidebar-tab {

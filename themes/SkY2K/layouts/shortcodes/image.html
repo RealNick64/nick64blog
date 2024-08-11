@@ -1,4 +1,6 @@
+{{ $image := .Page.Resources.Get (.Get `src`) }}
+
 <div>
-    <a href="{{.Get `src`}}"><img class="post-image" src="{{.Get `src`}}" alt="{{.Get `alt`}}"></a>
+    <a href="{{.Get `src`}}"><img class="post-image" src="{{ ( $image.Resize "600x jpg q90" ).RelPermalink }}" alt="{{.Get `alt`}}"></a>
     <b><p style="text-align: center;">{{.Get `text`}}</p></b>
 <div>

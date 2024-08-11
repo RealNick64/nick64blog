@@ -2,8 +2,9 @@
 <html>
     {{- partial "head.html" . -}}
     <body>
+        <div id="marquee"><span>Email me at <b>nick@nick64.me</b>!</span></div>
         <div id="clouds-container">
-            <div id="sidebar">
+            <nav id="sidebar">
                 <div class="box-container sidebar-tab">
                     <a href="/">
                         <div class="sidebar-flex">
@@ -52,11 +53,11 @@
                         </div>
                     </a>
                 </div>
-            </div>
+            </nav>
 
-            <div id="content-container">
+            <main id="content-container">
                 {{- block "main" . }}{{- end }}
-            </div>
+            </main>
         </div>
     </body>
 </html>
